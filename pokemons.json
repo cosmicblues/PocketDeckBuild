@@ -6,13 +6,9 @@
             "Grass",
             "Poison"
         ],
-        "total": 318,
-        "hp": 45,
-        "attack": 49,
-        "defense": 49,
-        "attack_special": 65,
-        "defense_special": 65,
-        "speed": 45,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 2
     },
     {
@@ -22,13 +18,9 @@
             "Grass",
             "Poison"
         ],
-        "total": 405,
-        "hp": 60,
-        "attack": 62,
-        "defense": 63,
-        "attack_special": 80,
-        "defense_special": 80,
-        "speed": 60,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 3
     },
     {
@@ -38,13 +30,9 @@
             "Grass",
             "Poison"
         ],
-        "total": 525,
-        "hp": 80,
-        "attack": 82,
-        "defense": 83,
-        "attack_special": 100,
-        "defense_special": 100,
-        "speed": 80
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 4,
@@ -52,13 +40,9 @@
         "types": [
             "Fire"
         ],
-        "total": 309,
-        "hp": 39,
-        "attack": 52,
-        "defense": 43,
-        "attack_special": 60,
-        "defense_special": 50,
-        "speed": 65,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 5
     },
     {
@@ -67,13 +51,9 @@
         "types": [
             "Fire"
         ],
-        "total": 405,
-        "hp": 58,
-        "attack": 64,
-        "defense": 58,
-        "attack_special": 80,
-        "defense_special": 65,
-        "speed": 80,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 6
     },
     {
@@ -83,13 +63,9 @@
             "Fire",
             "Flying"
         ],
-        "total": 534,
-        "hp": 78,
-        "attack": 84,
-        "defense": 78,
-        "attack_special": 109,
-        "defense_special": 85,
-        "speed": 100
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 7,
@@ -97,13 +73,9 @@
         "types": [
             "Water"
         ],
-        "total": 314,
-        "hp": 44,
-        "attack": 48,
-        "defense": 65,
-        "attack_special": 50,
-        "defense_special": 64,
-        "speed": 43,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 8
     },
     {
@@ -112,13 +84,9 @@
         "types": [
             "Water"
         ],
-        "total": 405,
-        "hp": 59,
-        "attack": 63,
-        "defense": 80,
-        "attack_special": 65,
-        "defense_special": 80,
-        "speed": 58,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 9
     },
     {
@@ -127,13 +95,9 @@
         "types": [
             "Water"
         ],
-        "total": 530,
-        "hp": 79,
-        "attack": 83,
-        "defense": 100,
-        "attack_special": 85,
-        "defense_special": 105,
-        "speed": 78
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 10,
@@ -141,13 +105,9 @@
         "types": [
             "Bug"
         ],
-        "total": 195,
-        "hp": 45,
-        "attack": 30,
-        "defense": 35,
-        "attack_special": 20,
-        "defense_special": 20,
-        "speed": 45,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 11
     },
     {
@@ -156,13 +116,9 @@
         "types": [
             "Bug"
         ],
-        "total": 205,
-        "hp": 50,
+        "hp": 41,
         "attack": 20,
-        "defense": 55,
-        "attack_special": 25,
-        "defense_special": 25,
-        "speed": 30,
+        "weakness": "none",
         "evolution_id": 12
     },
     {
@@ -172,13 +128,9 @@
             "Bug",
             "Flying"
         ],
-        "total": 395,
-        "hp": 60,
-        "attack": 45,
-        "defense": 50,
-        "attack_special": 90,
-        "defense_special": 80,
-        "speed": 70
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 13,
@@ -187,13 +139,9 @@
             "Bug",
             "Poison"
         ],
-        "total": 195,
-        "hp": 40,
-        "attack": 35,
-        "defense": 30,
-        "attack_special": 20,
-        "defense_special": 20,
-        "speed": 50,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 14
     },
     {
@@ -203,13 +151,9 @@
             "Bug",
             "Poison"
         ],
-        "total": 205,
-        "hp": 45,
-        "attack": 25,
-        "defense": 50,
-        "attack_special": 25,
-        "defense_special": 25,
-        "speed": 35,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 15
     },
     {
@@ -219,13 +163,9 @@
             "Bug",
             "Poison"
         ],
-        "total": 395,
-        "hp": 65,
-        "attack": 90,
-        "defense": 40,
-        "attack_special": 45,
-        "defense_special": 80,
-        "speed": 75
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 16,
@@ -234,13 +174,9 @@
             "Normal",
             "Flying"
         ],
-        "total": 251,
-        "hp": 40,
-        "attack": 45,
-        "defense": 40,
-        "attack_special": 35,
-        "defense_special": 35,
-        "speed": 56,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 17
     },
     {
@@ -250,13 +186,9 @@
             "Normal",
             "Flying"
         ],
-        "total": 349,
-        "hp": 63,
-        "attack": 60,
-        "defense": 55,
-        "attack_special": 50,
-        "defense_special": 50,
-        "speed": 71,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 18
     },
     {
@@ -266,13 +198,9 @@
             "Normal",
             "Flying"
         ],
-        "total": 479,
-        "hp": 83,
-        "attack": 80,
-        "defense": 75,
-        "attack_special": 70,
-        "defense_special": 70,
-        "speed": 101
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 19,
@@ -280,13 +208,9 @@
         "types": [
             "Normal"
         ],
-        "total": 253,
-        "hp": 30,
-        "attack": 56,
-        "defense": 35,
-        "attack_special": 25,
-        "defense_special": 35,
-        "speed": 72,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 20
     },
     {
@@ -295,13 +219,9 @@
         "types": [
             "Normal"
         ],
-        "total": 413,
-        "hp": 55,
-        "attack": 81,
-        "defense": 60,
-        "attack_special": 50,
-        "defense_special": 70,
-        "speed": 97
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 21,
@@ -310,13 +230,9 @@
             "Normal",
             "Flying"
         ],
-        "total": 262,
-        "hp": 40,
-        "attack": 60,
-        "defense": 30,
-        "attack_special": 31,
-        "defense_special": 31,
-        "speed": 70,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 22
     },
     {
@@ -326,13 +242,9 @@
             "Normal",
             "Flying"
         ],
-        "total": 442,
-        "hp": 65,
-        "attack": 90,
-        "defense": 65,
-        "attack_special": 61,
-        "defense_special": 61,
-        "speed": 100
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 23,
@@ -340,13 +252,9 @@
         "types": [
             "Poison"
         ],
-        "total": 288,
-        "hp": 35,
-        "attack": 60,
-        "defense": 44,
-        "attack_special": 40,
-        "defense_special": 54,
-        "speed": 55,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 24
     },
     {
@@ -355,13 +263,9 @@
         "types": [
             "Poison"
         ],
-        "total": 448,
-        "hp": 60,
-        "attack": 95,
-        "defense": 69,
-        "attack_special": 65,
-        "defense_special": 79,
-        "speed": 80
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 25,
@@ -369,13 +273,9 @@
         "types": [
             "Electric"
         ],
-        "total": 320,
-        "hp": 35,
-        "attack": 55,
-        "defense": 40,
-        "attack_special": 50,
-        "defense_special": 50,
-        "speed": 90,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 26
     },
     {
@@ -384,13 +284,9 @@
         "types": [
             "Electric"
         ],
-        "total": 485,
-        "hp": 60,
-        "attack": 90,
-        "defense": 55,
-        "attack_special": 90,
-        "defense_special": 80,
-        "speed": 110
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 27,
@@ -398,13 +294,9 @@
         "types": [
             "Ground"
         ],
-        "total": 300,
-        "hp": 50,
-        "attack": 75,
-        "defense": 85,
-        "attack_special": 20,
-        "defense_special": 30,
-        "speed": 40,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 28
     },
     {
@@ -413,13 +305,9 @@
         "types": [
             "Ground"
         ],
-        "total": 450,
-        "hp": 75,
-        "attack": 100,
-        "defense": 110,
-        "attack_special": 45,
-        "defense_special": 55,
-        "speed": 65
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 29,
@@ -427,13 +315,9 @@
         "types": [
             "Poison"
         ],
-        "total": 275,
-        "hp": 55,
-        "attack": 47,
-        "defense": 52,
-        "attack_special": 40,
-        "defense_special": 40,
-        "speed": 41,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 30
     },
     {
@@ -442,13 +326,9 @@
         "types": [
             "Poison"
         ],
-        "total": 365,
-        "hp": 70,
-        "attack": 62,
-        "defense": 67,
-        "attack_special": 55,
-        "defense_special": 55,
-        "speed": 56,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 31
     },
     {
@@ -458,13 +338,9 @@
             "Poison",
             "Ground"
         ],
-        "total": 505,
-        "hp": 90,
-        "attack": 92,
-        "defense": 87,
-        "attack_special": 75,
-        "defense_special": 85,
-        "speed": 76
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 32,
@@ -472,13 +348,9 @@
         "types": [
             "Poison"
         ],
-        "total": 273,
-        "hp": 46,
-        "attack": 57,
-        "defense": 40,
-        "attack_special": 40,
-        "defense_special": 40,
-        "speed": 50,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 33
     },
     {
@@ -487,13 +359,9 @@
         "types": [
             "Poison"
         ],
-        "total": 365,
-        "hp": 61,
-        "attack": 72,
-        "defense": 57,
-        "attack_special": 55,
-        "defense_special": 55,
-        "speed": 65,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 34
     },
     {
@@ -503,13 +371,9 @@
             "Poison",
             "Ground"
         ],
-        "total": 505,
-        "hp": 81,
-        "attack": 102,
-        "defense": 77,
-        "attack_special": 85,
-        "defense_special": 75,
-        "speed": 85
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 35,
@@ -517,13 +381,9 @@
         "types": [
             "Fairy"
         ],
-        "total": 323,
-        "hp": 70,
-        "attack": 45,
-        "defense": 48,
-        "attack_special": 60,
-        "defense_special": 65,
-        "speed": 35,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 36
     },
     {
@@ -532,13 +392,9 @@
         "types": [
             "Fairy"
         ],
-        "total": 483,
-        "hp": 95,
-        "attack": 70,
-        "defense": 73,
-        "attack_special": 95,
-        "defense_special": 90,
-        "speed": 60
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 37,
@@ -546,13 +402,9 @@
         "types": [
             "Fire"
         ],
-        "total": 299,
-        "hp": 38,
-        "attack": 41,
-        "defense": 40,
-        "attack_special": 50,
-        "defense_special": 65,
-        "speed": 65,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 38
     },
     {
@@ -561,13 +413,9 @@
         "types": [
             "Fire"
         ],
-        "total": 505,
-        "hp": 73,
-        "attack": 76,
-        "defense": 75,
-        "attack_special": 81,
-        "defense_special": 100,
-        "speed": 100
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 39,
@@ -576,13 +424,9 @@
             "Normal",
             "Fairy"
         ],
-        "total": 270,
-        "hp": 115,
-        "attack": 45,
-        "defense": 20,
-        "attack_special": 45,
-        "defense_special": 25,
-        "speed": 20,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 40
     },
     {
@@ -592,13 +436,9 @@
             "Normal",
             "Fairy"
         ],
-        "total": 435,
-        "hp": 140,
-        "attack": 70,
-        "defense": 45,
-        "attack_special": 85,
-        "defense_special": 50,
-        "speed": 45
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 41,
@@ -607,13 +447,9 @@
             "Poison",
             "Flying"
         ],
-        "total": 245,
-        "hp": 40,
-        "attack": 45,
-        "defense": 35,
-        "attack_special": 30,
-        "defense_special": 40,
-        "speed": 55,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 42
     },
     {
@@ -623,13 +459,9 @@
             "Poison",
             "Flying"
         ],
-        "total": 455,
-        "hp": 75,
-        "attack": 80,
-        "defense": 70,
-        "attack_special": 65,
-        "defense_special": 75,
-        "speed": 90,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 169
     },
     {
@@ -639,13 +471,9 @@
             "Grass",
             "Poison"
         ],
-        "total": 320,
-        "hp": 45,
-        "attack": 50,
-        "defense": 55,
-        "attack_special": 75,
-        "defense_special": 65,
-        "speed": 30,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 44
     },
     {
@@ -655,13 +483,9 @@
             "Grass",
             "Poison"
         ],
-        "total": 395,
-        "hp": 60,
-        "attack": 65,
-        "defense": 70,
-        "attack_special": 85,
-        "defense_special": 75,
-        "speed": 40,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 45
     },
     {
@@ -671,13 +495,9 @@
             "Grass",
             "Poison"
         ],
-        "total": 490,
-        "hp": 75,
-        "attack": 80,
-        "defense": 85,
-        "attack_special": 110,
-        "defense_special": 90,
-        "speed": 50
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 46,
@@ -686,13 +506,9 @@
             "Bug",
             "Grass"
         ],
-        "total": 285,
-        "hp": 35,
-        "attack": 70,
-        "defense": 55,
-        "attack_special": 45,
-        "defense_special": 55,
-        "speed": 25,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 47
     },
     {
@@ -702,13 +518,9 @@
             "Bug",
             "Grass"
         ],
-        "total": 405,
-        "hp": 60,
-        "attack": 95,
-        "defense": 80,
-        "attack_special": 60,
-        "defense_special": 80,
-        "speed": 30
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 48,
@@ -717,13 +529,9 @@
             "Bug",
             "Poison"
         ],
-        "total": 305,
-        "hp": 60,
-        "attack": 55,
-        "defense": 50,
-        "attack_special": 40,
-        "defense_special": 55,
-        "speed": 45,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 49
     },
     {
@@ -733,13 +541,9 @@
             "Bug",
             "Poison"
         ],
-        "total": 450,
-        "hp": 70,
-        "attack": 65,
-        "defense": 60,
-        "attack_special": 90,
-        "defense_special": 75,
-        "speed": 90
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 50,
@@ -747,13 +551,9 @@
         "types": [
             "Ground"
         ],
-        "total": 265,
-        "hp": 10,
-        "attack": 55,
-        "defense": 25,
-        "attack_special": 35,
-        "defense_special": 45,
-        "speed": 95,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 51
     },
     {
@@ -762,13 +562,9 @@
         "types": [
             "Ground"
         ],
-        "total": 425,
-        "hp": 35,
-        "attack": 100,
-        "defense": 50,
-        "attack_special": 50,
-        "defense_special": 70,
-        "speed": 120
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 52,
@@ -776,13 +572,9 @@
         "types": [
             "Normal"
         ],
-        "total": 290,
-        "hp": 40,
-        "attack": 45,
-        "defense": 35,
-        "attack_special": 40,
-        "defense_special": 40,
-        "speed": 90,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 53
     },
     {
@@ -791,13 +583,9 @@
         "types": [
             "Normal"
         ],
-        "total": 440,
-        "hp": 65,
-        "attack": 70,
-        "defense": 60,
-        "attack_special": 65,
-        "defense_special": 65,
-        "speed": 115
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 54,
@@ -805,13 +593,9 @@
         "types": [
             "Water"
         ],
-        "total": 320,
-        "hp": 50,
-        "attack": 52,
-        "defense": 48,
-        "attack_special": 65,
-        "defense_special": 50,
-        "speed": 55,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 55
     },
     {
@@ -820,13 +604,9 @@
         "types": [
             "Water"
         ],
-        "total": 500,
-        "hp": 80,
-        "attack": 82,
-        "defense": 78,
-        "attack_special": 95,
-        "defense_special": 80,
-        "speed": 85
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 56,
@@ -834,13 +614,9 @@
         "types": [
             "Fighting"
         ],
-        "total": 305,
-        "hp": 40,
-        "attack": 80,
-        "defense": 35,
-        "attack_special": 35,
-        "defense_special": 45,
-        "speed": 70,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 57
     },
     {
@@ -849,13 +625,9 @@
         "types": [
             "Fighting"
         ],
-        "total": 455,
-        "hp": 65,
-        "attack": 105,
-        "defense": 60,
-        "attack_special": 60,
-        "defense_special": 70,
-        "speed": 95,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 979
     },
     {
@@ -864,13 +636,9 @@
         "types": [
             "Fire"
         ],
-        "total": 350,
-        "hp": 55,
-        "attack": 70,
-        "defense": 45,
-        "attack_special": 70,
-        "defense_special": 50,
-        "speed": 60,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 59
     },
     {
@@ -879,13 +647,9 @@
         "types": [
             "Fire"
         ],
-        "total": 555,
-        "hp": 90,
-        "attack": 110,
-        "defense": 80,
-        "attack_special": 100,
-        "defense_special": 80,
-        "speed": 95
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 60,
@@ -893,13 +657,9 @@
         "types": [
             "Water"
         ],
-        "total": 300,
-        "hp": 40,
-        "attack": 50,
-        "defense": 40,
-        "attack_special": 40,
-        "defense_special": 40,
-        "speed": 90,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 61
     },
     {
@@ -908,13 +668,9 @@
         "types": [
             "Water"
         ],
-        "total": 385,
-        "hp": 65,
-        "attack": 65,
-        "defense": 65,
-        "attack_special": 50,
-        "defense_special": 50,
-        "speed": 90,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 62
     },
     {
@@ -924,13 +680,9 @@
             "Water",
             "Fighting"
         ],
-        "total": 510,
-        "hp": 90,
-        "attack": 95,
-        "defense": 95,
-        "attack_special": 70,
-        "defense_special": 90,
-        "speed": 70
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 63,
@@ -938,13 +690,9 @@
         "types": [
             "Psychic"
         ],
-        "total": 310,
-        "hp": 25,
+        "hp": 41,
         "attack": 20,
-        "defense": 15,
-        "attack_special": 105,
-        "defense_special": 55,
-        "speed": 90,
+        "weakness": "none",
         "evolution_id": 64
     },
     {
@@ -953,13 +701,9 @@
         "types": [
             "Psychic"
         ],
-        "total": 400,
-        "hp": 40,
-        "attack": 35,
-        "defense": 30,
-        "attack_special": 120,
-        "defense_special": 70,
-        "speed": 105,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 65
     },
     {
@@ -968,13 +712,9 @@
         "types": [
             "Psychic"
         ],
-        "total": 500,
-        "hp": 55,
-        "attack": 50,
-        "defense": 45,
-        "attack_special": 135,
-        "defense_special": 95,
-        "speed": 120
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 66,
@@ -982,13 +722,9 @@
         "types": [
             "Fighting"
         ],
-        "total": 305,
-        "hp": 70,
-        "attack": 80,
-        "defense": 50,
-        "attack_special": 35,
-        "defense_special": 35,
-        "speed": 35,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 67
     },
     {
@@ -997,13 +733,9 @@
         "types": [
             "Fighting"
         ],
-        "total": 405,
-        "hp": 80,
-        "attack": 100,
-        "defense": 70,
-        "attack_special": 50,
-        "defense_special": 60,
-        "speed": 45,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 68
     },
     {
@@ -1012,13 +744,9 @@
         "types": [
             "Fighting"
         ],
-        "total": 505,
-        "hp": 90,
-        "attack": 130,
-        "defense": 80,
-        "attack_special": 65,
-        "defense_special": 85,
-        "speed": 55
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 69,
@@ -1027,13 +755,9 @@
             "Grass",
             "Poison"
         ],
-        "total": 300,
-        "hp": 50,
-        "attack": 75,
-        "defense": 35,
-        "attack_special": 70,
-        "defense_special": 30,
-        "speed": 40,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 70
     },
     {
@@ -1043,13 +767,9 @@
             "Grass",
             "Poison"
         ],
-        "total": 390,
-        "hp": 65,
-        "attack": 90,
-        "defense": 50,
-        "attack_special": 85,
-        "defense_special": 45,
-        "speed": 55,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 71
     },
     {
@@ -1059,13 +779,9 @@
             "Grass",
             "Poison"
         ],
-        "total": 490,
-        "hp": 80,
-        "attack": 105,
-        "defense": 65,
-        "attack_special": 100,
-        "defense_special": 70,
-        "speed": 70
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 72,
@@ -1074,13 +790,9 @@
             "Water",
             "Poison"
         ],
-        "total": 335,
-        "hp": 40,
-        "attack": 40,
-        "defense": 35,
-        "attack_special": 50,
-        "defense_special": 100,
-        "speed": 70,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 73
     },
     {
@@ -1090,13 +802,9 @@
             "Water",
             "Poison"
         ],
-        "total": 515,
-        "hp": 80,
-        "attack": 70,
-        "defense": 65,
-        "attack_special": 80,
-        "defense_special": 120,
-        "speed": 100
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 74,
@@ -1105,13 +813,9 @@
             "Rock",
             "Ground"
         ],
-        "total": 300,
-        "hp": 40,
-        "attack": 80,
-        "defense": 100,
-        "attack_special": 30,
-        "defense_special": 30,
-        "speed": 20,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 75
     },
     {
@@ -1121,13 +825,9 @@
             "Rock",
             "Ground"
         ],
-        "total": 390,
-        "hp": 55,
-        "attack": 95,
-        "defense": 115,
-        "attack_special": 45,
-        "defense_special": 45,
-        "speed": 35,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 76
     },
     {
@@ -1137,13 +837,9 @@
             "Rock",
             "Ground"
         ],
-        "total": 495,
-        "hp": 80,
-        "attack": 120,
-        "defense": 130,
-        "attack_special": 55,
-        "defense_special": 65,
-        "speed": 45
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 77,
@@ -1151,13 +847,9 @@
         "types": [
             "Fire"
         ],
-        "total": 410,
-        "hp": 50,
-        "attack": 85,
-        "defense": 55,
-        "attack_special": 65,
-        "defense_special": 65,
-        "speed": 90,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 78
     },
     {
@@ -1166,13 +858,9 @@
         "types": [
             "Fire"
         ],
-        "total": 500,
-        "hp": 65,
-        "attack": 100,
-        "defense": 70,
-        "attack_special": 80,
-        "defense_special": 80,
-        "speed": 105
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 79,
@@ -1181,13 +869,9 @@
             "Water",
             "Psychic"
         ],
-        "total": 315,
-        "hp": 90,
-        "attack": 65,
-        "defense": 65,
-        "attack_special": 40,
-        "defense_special": 40,
-        "speed": 15,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 80
     },
     {
@@ -1197,13 +881,9 @@
             "Water",
             "Psychic"
         ],
-        "total": 490,
-        "hp": 95,
-        "attack": 75,
-        "defense": 110,
-        "attack_special": 100,
-        "defense_special": 80,
-        "speed": 30
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 81,
@@ -1212,13 +892,9 @@
             "Electric",
             "Steel"
         ],
-        "total": 325,
-        "hp": 25,
-        "attack": 35,
-        "defense": 70,
-        "attack_special": 95,
-        "defense_special": 55,
-        "speed": 45,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 82
     },
     {
@@ -1228,13 +904,9 @@
             "Electric",
             "Steel"
         ],
-        "total": 465,
-        "hp": 50,
-        "attack": 60,
-        "defense": 95,
-        "attack_special": 120,
-        "defense_special": 70,
-        "speed": 70,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 462
     },
     {
@@ -1244,13 +916,9 @@
             "Normal",
             "Flying"
         ],
-        "total": 377,
-        "hp": 52,
-        "attack": 90,
-        "defense": 55,
-        "attack_special": 58,
-        "defense_special": 62,
-        "speed": 60
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 84,
@@ -1259,13 +927,9 @@
             "Normal",
             "Flying"
         ],
-        "total": 310,
-        "hp": 35,
-        "attack": 85,
-        "defense": 45,
-        "attack_special": 35,
-        "defense_special": 35,
-        "speed": 75,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 85
     },
     {
@@ -1275,13 +939,9 @@
             "Normal",
             "Flying"
         ],
-        "total": 470,
-        "hp": 60,
-        "attack": 110,
-        "defense": 70,
-        "attack_special": 60,
-        "defense_special": 60,
-        "speed": 110
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 86,
@@ -1289,13 +949,9 @@
         "types": [
             "Water"
         ],
-        "total": 325,
-        "hp": 65,
-        "attack": 45,
-        "defense": 55,
-        "attack_special": 45,
-        "defense_special": 70,
-        "speed": 45,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 87
     },
     {
@@ -1305,13 +961,9 @@
             "Water",
             "Ice"
         ],
-        "total": 475,
-        "hp": 90,
-        "attack": 70,
-        "defense": 80,
-        "attack_special": 70,
-        "defense_special": 95,
-        "speed": 70
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 88,
@@ -1319,13 +971,9 @@
         "types": [
             "Poison"
         ],
-        "total": 325,
-        "hp": 80,
-        "attack": 80,
-        "defense": 50,
-        "attack_special": 40,
-        "defense_special": 50,
-        "speed": 25,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 89
     },
     {
@@ -1334,13 +982,9 @@
         "types": [
             "Poison"
         ],
-        "total": 500,
-        "hp": 105,
-        "attack": 105,
-        "defense": 75,
-        "attack_special": 65,
-        "defense_special": 100,
-        "speed": 50
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 90,
@@ -1348,13 +992,9 @@
         "types": [
             "Water"
         ],
-        "total": 305,
-        "hp": 30,
-        "attack": 65,
-        "defense": 100,
-        "attack_special": 45,
-        "defense_special": 25,
-        "speed": 40,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 91
     },
     {
@@ -1364,13 +1004,9 @@
             "Water",
             "Ice"
         ],
-        "total": 525,
-        "hp": 50,
-        "attack": 95,
-        "defense": 180,
-        "attack_special": 85,
-        "defense_special": 45,
-        "speed": 70
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 92,
@@ -1379,13 +1015,9 @@
             "Ghost",
             "Poison"
         ],
-        "total": 310,
-        "hp": 30,
-        "attack": 35,
-        "defense": 30,
-        "attack_special": 100,
-        "defense_special": 35,
-        "speed": 80,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 93
     },
     {
@@ -1395,13 +1027,9 @@
             "Ghost",
             "Poison"
         ],
-        "total": 405,
-        "hp": 45,
-        "attack": 50,
-        "defense": 45,
-        "attack_special": 115,
-        "defense_special": 55,
-        "speed": 95,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 94
     },
     {
@@ -1411,13 +1039,9 @@
             "Ghost",
             "Poison"
         ],
-        "total": 500,
-        "hp": 60,
-        "attack": 65,
-        "defense": 60,
-        "attack_special": 130,
-        "defense_special": 75,
-        "speed": 110
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 95,
@@ -1426,13 +1050,9 @@
             "Rock",
             "Ground"
         ],
-        "total": 385,
-        "hp": 35,
-        "attack": 45,
-        "defense": 160,
-        "attack_special": 30,
-        "defense_special": 45,
-        "speed": 70,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 208
     },
     {
@@ -1441,13 +1061,9 @@
         "types": [
             "Psychic"
         ],
-        "total": 328,
-        "hp": 60,
-        "attack": 48,
-        "defense": 45,
-        "attack_special": 43,
-        "defense_special": 90,
-        "speed": 42,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 97
     },
     {
@@ -1456,13 +1072,9 @@
         "types": [
             "Psychic"
         ],
-        "total": 483,
-        "hp": 85,
-        "attack": 73,
-        "defense": 70,
-        "attack_special": 73,
-        "defense_special": 115,
-        "speed": 67
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 98,
@@ -1470,13 +1082,9 @@
         "types": [
             "Water"
         ],
-        "total": 325,
-        "hp": 30,
-        "attack": 105,
-        "defense": 90,
-        "attack_special": 25,
-        "defense_special": 25,
-        "speed": 50,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 99
     },
     {
@@ -1485,13 +1093,9 @@
         "types": [
             "Water"
         ],
-        "total": 475,
-        "hp": 55,
-        "attack": 130,
-        "defense": 115,
-        "attack_special": 50,
-        "defense_special": 50,
-        "speed": 75
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 100,
@@ -1499,13 +1103,9 @@
         "types": [
             "Electric"
         ],
-        "total": 330,
-        "hp": 40,
-        "attack": 30,
-        "defense": 50,
-        "attack_special": 55,
-        "defense_special": 55,
-        "speed": 100,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 101
     },
     {
@@ -1514,13 +1114,9 @@
         "types": [
             "Electric"
         ],
-        "total": 490,
-        "hp": 60,
-        "attack": 50,
-        "defense": 70,
-        "attack_special": 80,
-        "defense_special": 80,
-        "speed": 150
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 102,
@@ -1529,13 +1125,9 @@
             "Grass",
             "Psychic"
         ],
-        "total": 325,
-        "hp": 60,
-        "attack": 40,
-        "defense": 80,
-        "attack_special": 60,
-        "defense_special": 45,
-        "speed": 40,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 103
     },
     {
@@ -1545,13 +1137,9 @@
             "Grass",
             "Psychic"
         ],
-        "total": 530,
-        "hp": 95,
-        "attack": 95,
-        "defense": 85,
-        "attack_special": 125,
-        "defense_special": 75,
-        "speed": 55
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 104,
@@ -1559,13 +1147,9 @@
         "types": [
             "Ground"
         ],
-        "total": 320,
-        "hp": 50,
-        "attack": 50,
-        "defense": 95,
-        "attack_special": 40,
-        "defense_special": 50,
-        "speed": 35,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 105
     },
     {
@@ -1574,13 +1158,9 @@
         "types": [
             "Ground"
         ],
-        "total": 425,
-        "hp": 60,
-        "attack": 80,
-        "defense": 110,
-        "attack_special": 50,
-        "defense_special": 80,
-        "speed": 45
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 106,
@@ -1588,13 +1168,9 @@
         "types": [
             "Fighting"
         ],
-        "total": 455,
-        "hp": 50,
-        "attack": 120,
-        "defense": 53,
-        "attack_special": 35,
-        "defense_special": 110,
-        "speed": 87
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 107,
@@ -1602,13 +1178,9 @@
         "types": [
             "Fighting"
         ],
-        "total": 455,
-        "hp": 50,
-        "attack": 105,
-        "defense": 79,
-        "attack_special": 35,
-        "defense_special": 110,
-        "speed": 76
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 108,
@@ -1616,13 +1188,9 @@
         "types": [
             "Normal"
         ],
-        "total": 385,
-        "hp": 90,
-        "attack": 55,
-        "defense": 75,
-        "attack_special": 60,
-        "defense_special": 75,
-        "speed": 30,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 463
     },
     {
@@ -1631,13 +1199,9 @@
         "types": [
             "Poison"
         ],
-        "total": 340,
-        "hp": 40,
-        "attack": 65,
-        "defense": 95,
-        "attack_special": 60,
-        "defense_special": 45,
-        "speed": 35,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 110
     },
     {
@@ -1646,13 +1210,9 @@
         "types": [
             "Poison"
         ],
-        "total": 490,
-        "hp": 65,
-        "attack": 90,
-        "defense": 120,
-        "attack_special": 85,
-        "defense_special": 70,
-        "speed": 60
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 111,
@@ -1661,13 +1221,9 @@
             "Ground",
             "Rock"
         ],
-        "total": 345,
-        "hp": 80,
-        "attack": 85,
-        "defense": 95,
-        "attack_special": 30,
-        "defense_special": 30,
-        "speed": 25,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 112
     },
     {
@@ -1677,13 +1233,9 @@
             "Ground",
             "Rock"
         ],
-        "total": 485,
-        "hp": 105,
-        "attack": 130,
-        "defense": 120,
-        "attack_special": 45,
-        "defense_special": 45,
-        "speed": 40,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 464
     },
     {
@@ -1692,13 +1244,9 @@
         "types": [
             "Normal"
         ],
-        "total": 450,
-        "hp": 250,
-        "attack": 5,
-        "defense": 5,
-        "attack_special": 35,
-        "defense_special": 105,
-        "speed": 50,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 242
     },
     {
@@ -1707,13 +1255,9 @@
         "types": [
             "Grass"
         ],
-        "total": 435,
-        "hp": 65,
-        "attack": 55,
-        "defense": 115,
-        "attack_special": 100,
-        "defense_special": 40,
-        "speed": 60,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 465
     },
     {
@@ -1722,13 +1266,9 @@
         "types": [
             "Normal"
         ],
-        "total": 490,
-        "hp": 105,
-        "attack": 95,
-        "defense": 80,
-        "attack_special": 40,
-        "defense_special": 80,
-        "speed": 90
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 116,
@@ -1736,13 +1276,9 @@
         "types": [
             "Water"
         ],
-        "total": 295,
-        "hp": 30,
-        "attack": 40,
-        "defense": 70,
-        "attack_special": 70,
-        "defense_special": 25,
-        "speed": 60,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 117
     },
     {
@@ -1751,13 +1287,9 @@
         "types": [
             "Water"
         ],
-        "total": 440,
-        "hp": 55,
-        "attack": 65,
-        "defense": 95,
-        "attack_special": 95,
-        "defense_special": 45,
-        "speed": 85,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 230
     },
     {
@@ -1766,13 +1298,9 @@
         "types": [
             "Water"
         ],
-        "total": 320,
-        "hp": 45,
-        "attack": 67,
-        "defense": 60,
-        "attack_special": 35,
-        "defense_special": 50,
-        "speed": 63,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 119
     },
     {
@@ -1781,13 +1309,9 @@
         "types": [
             "Water"
         ],
-        "total": 450,
-        "hp": 80,
-        "attack": 92,
-        "defense": 65,
-        "attack_special": 65,
-        "defense_special": 80,
-        "speed": 68
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 120,
@@ -1795,13 +1319,9 @@
         "types": [
             "Water"
         ],
-        "total": 340,
-        "hp": 30,
-        "attack": 45,
-        "defense": 55,
-        "attack_special": 70,
-        "defense_special": 55,
-        "speed": 85,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 121
     },
     {
@@ -1811,13 +1331,9 @@
             "Water",
             "Psychic"
         ],
-        "total": 520,
-        "hp": 60,
-        "attack": 75,
-        "defense": 85,
-        "attack_special": 100,
-        "defense_special": 85,
-        "speed": 115
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 122,
@@ -1826,13 +1342,9 @@
             "Psychic",
             "Fairy"
         ],
-        "total": 460,
-        "hp": 40,
-        "attack": 45,
-        "defense": 65,
-        "attack_special": 100,
-        "defense_special": 120,
-        "speed": 90
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 123,
@@ -1841,13 +1353,9 @@
             "Bug",
             "Flying"
         ],
-        "total": 500,
-        "hp": 70,
-        "attack": 110,
-        "defense": 80,
-        "attack_special": 55,
-        "defense_special": 80,
-        "speed": 105,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 212
     },
     {
@@ -1857,13 +1365,9 @@
             "Ice",
             "Psychic"
         ],
-        "total": 455,
-        "hp": 65,
-        "attack": 50,
-        "defense": 35,
-        "attack_special": 115,
-        "defense_special": 95,
-        "speed": 95
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 125,
@@ -1871,13 +1375,9 @@
         "types": [
             "Electric"
         ],
-        "total": 490,
-        "hp": 65,
-        "attack": 83,
-        "defense": 57,
-        "attack_special": 95,
-        "defense_special": 85,
-        "speed": 105,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 466
     },
     {
@@ -1886,13 +1386,9 @@
         "types": [
             "Fire"
         ],
-        "total": 495,
-        "hp": 65,
-        "attack": 95,
-        "defense": 57,
-        "attack_special": 100,
-        "defense_special": 85,
-        "speed": 93,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 467
     },
     {
@@ -1901,13 +1397,9 @@
         "types": [
             "Bug"
         ],
-        "total": 500,
-        "hp": 65,
-        "attack": 125,
-        "defense": 100,
-        "attack_special": 55,
-        "defense_special": 70,
-        "speed": 85
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 128,
@@ -1915,13 +1407,9 @@
         "types": [
             "Normal"
         ],
-        "total": 490,
-        "hp": 75,
-        "attack": 100,
-        "defense": 95,
-        "attack_special": 40,
-        "defense_special": 70,
-        "speed": 110
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 129,
@@ -1929,13 +1417,9 @@
         "types": [
             "Water"
         ],
-        "total": 200,
-        "hp": 20,
-        "attack": 10,
-        "defense": 55,
-        "attack_special": 15,
-        "defense_special": 20,
-        "speed": 80,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 130
     },
     {
@@ -1945,13 +1429,9 @@
             "Water",
             "Flying"
         ],
-        "total": 540,
-        "hp": 95,
-        "attack": 125,
-        "defense": 79,
-        "attack_special": 60,
-        "defense_special": 100,
-        "speed": 81
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 131,
@@ -1960,13 +1440,9 @@
             "Water",
             "Ice"
         ],
-        "total": 535,
-        "hp": 130,
-        "attack": 85,
-        "defense": 80,
-        "attack_special": 85,
-        "defense_special": 95,
-        "speed": 60
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 132,
@@ -1974,13 +1450,9 @@
         "types": [
             "Normal"
         ],
-        "total": 288,
-        "hp": 48,
-        "attack": 48,
-        "defense": 48,
-        "attack_special": 48,
-        "defense_special": 48,
-        "speed": 48
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 133,
@@ -1988,13 +1460,9 @@
         "types": [
             "Normal"
         ],
-        "total": 325,
-        "hp": 55,
-        "attack": 55,
-        "defense": 50,
-        "attack_special": 45,
-        "defense_special": 65,
-        "speed": 55
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 134,
@@ -2002,13 +1470,9 @@
         "types": [
             "Water"
         ],
-        "total": 525,
-        "hp": 130,
-        "attack": 65,
-        "defense": 60,
-        "attack_special": 110,
-        "defense_special": 95,
-        "speed": 65
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 135,
@@ -2016,13 +1480,9 @@
         "types": [
             "Electric"
         ],
-        "total": 525,
-        "hp": 65,
-        "attack": 65,
-        "defense": 60,
-        "attack_special": 110,
-        "defense_special": 95,
-        "speed": 130
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 136,
@@ -2030,13 +1490,9 @@
         "types": [
             "Fire"
         ],
-        "total": 525,
-        "hp": 65,
-        "attack": 130,
-        "defense": 60,
-        "attack_special": 95,
-        "defense_special": 110,
-        "speed": 65
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 137,
@@ -2044,13 +1500,9 @@
         "types": [
             "Normal"
         ],
-        "total": 395,
-        "hp": 65,
-        "attack": 60,
-        "defense": 70,
-        "attack_special": 85,
-        "defense_special": 75,
-        "speed": 40,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 233
     },
     {
@@ -2060,13 +1512,9 @@
             "Rock",
             "Water"
         ],
-        "total": 355,
-        "hp": 35,
-        "attack": 40,
-        "defense": 100,
-        "attack_special": 90,
-        "defense_special": 55,
-        "speed": 35,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 139
     },
     {
@@ -2076,13 +1524,9 @@
             "Rock",
             "Water"
         ],
-        "total": 495,
-        "hp": 70,
-        "attack": 60,
-        "defense": 125,
-        "attack_special": 115,
-        "defense_special": 70,
-        "speed": 55
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 140,
@@ -2091,13 +1535,9 @@
             "Rock",
             "Water"
         ],
-        "total": 355,
-        "hp": 30,
-        "attack": 80,
-        "defense": 90,
-        "attack_special": 55,
-        "defense_special": 45,
-        "speed": 55,
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 141
     },
     {
@@ -2107,13 +1547,9 @@
             "Rock",
             "Water"
         ],
-        "total": 495,
-        "hp": 60,
-        "attack": 115,
-        "defense": 105,
-        "attack_special": 65,
-        "defense_special": 70,
-        "speed": 80
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 142,
@@ -2122,13 +1558,9 @@
             "Rock",
             "Flying"
         ],
-        "total": 515,
-        "hp": 80,
-        "attack": 105,
-        "defense": 65,
-        "attack_special": 60,
-        "defense_special": 75,
-        "speed": 130
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 143,
@@ -2136,13 +1568,9 @@
         "types": [
             "Normal"
         ],
-        "total": 540,
-        "hp": 160,
-        "attack": 110,
-        "defense": 65,
-        "attack_special": 65,
-        "defense_special": 110,
-        "speed": 30
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 144,
@@ -2151,13 +1579,9 @@
             "Ice",
             "Flying"
         ],
-        "total": 580,
-        "hp": 90,
-        "attack": 85,
-        "defense": 100,
-        "attack_special": 95,
-        "defense_special": 125,
-        "speed": 85
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 145,
@@ -2166,13 +1590,9 @@
             "Electric",
             "Flying"
         ],
-        "total": 580,
-        "hp": 90,
-        "attack": 90,
-        "defense": 85,
-        "attack_special": 125,
-        "defense_special": 90,
-        "speed": 100
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 146,
@@ -2181,13 +1601,9 @@
             "Fire",
             "Flying"
         ],
-        "total": 580,
-        "hp": 90,
-        "attack": 100,
-        "defense": 90,
-        "attack_special": 125,
-        "defense_special": 85,
-        "speed": 90
+        "hp": 41,
+        "attack": 20,
+        "weakness": "none"
     },
     {
         "id": 147,
@@ -2195,13 +1611,9 @@
         "types": [
             "Dragon"
         ],
-        "total": 300,
         "hp": 41,
-        "attack": 64,
-        "defense": 45,
-        "attack_special": 50,
-        "defense_special": 50,
-        "speed": 50,
+        "attack": 20,
+        "weakness": "none",
         "evolution_id": 148
     },
     {
@@ -2235,7 +1647,7 @@
             "Psychic"
         ],
         "hp": 150,
-        "attack1": 50,
+        "attack": 50,
         "attack2": 150,
         "weakness": "Dark"
     }
