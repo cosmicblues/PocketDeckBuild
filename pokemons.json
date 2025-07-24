@@ -3,300 +3,287 @@
         "id": 1,
         "name": "Bulbasaur",
         "types": [
-            "Grass",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 70,
+        "attack": 40,
+        "weakness": "fire",
         "evolution_id": 2
     },
     {
         "id": 2,
         "name": "Ivysaur",
         "types": [
-            "Grass",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 90,
+        "attack": 60,
+        "weakness": "fire",
         "evolution_id": 3
     },
     {
         "id": 3,
         "name": "Venusaur",
         "types": [
-            "Grass",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 160,
+        "attack": 80,
+        "weakness": "fire"
     },
     {
         "id": 4,
         "name": "Charmander",
         "types": [
-            "Fire"
+            "fire"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "water",
         "evolution_id": 5
     },
     {
         "id": 5,
         "name": "Charmeleon",
         "types": [
-            "Fire"
+            "fire"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 90,
+        "attack": 60,
+        "weakness": "water",
         "evolution_id": 6
     },
     {
         "id": 6,
         "name": "Charizard",
         "types": [
-            "Fire",
-            "Flying"
+            "fire"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 150,
+        "attack": 150,
+        "weakness": "water"
     },
     {
         "id": 7,
         "name": "Squirtle",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "electric",
         "evolution_id": 8
     },
     {
         "id": 8,
         "name": "Wartortle",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 40,
+        "weakness": "electric",
         "evolution_id": 9
     },
     {
         "id": 9,
         "name": "Blastoise",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 150,
+        "attack": 80,
+        "weakness": "electric"
     },
     {
         "id": 10,
         "name": "Caterpie",
         "types": [
-            "Bug"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 50,
+        "attack": 0,
+        "weakness": "fire",
         "evolution_id": 11
     },
     {
         "id": 11,
         "name": "Metapod",
         "types": [
-            "Bug"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 30,
+        "weakness": "fire",
         "evolution_id": 12
     },
     {
         "id": 12,
         "name": "Butterfree",
         "types": [
-            "Bug",
-            "Flying"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 120,
+        "attack": 60,
+        "weakness": "fire"
     },
     {
         "id": 13,
         "name": "Weedle",
         "types": [
-            "Bug",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
+        "hp": 50,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fire",
         "evolution_id": 14
     },
     {
         "id": 14,
         "name": "Kakuna",
         "types": [
-            "Bug",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 30,
+        "weakness": "fire",
         "evolution_id": 15
     },
     {
         "id": 15,
         "name": "Beedrill",
         "types": [
-            "Bug",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 120,
+        "attack": 70,
+        "weakness": "fire"
     },
     {
         "id": 16,
         "name": "Pidgey",
         "types": [
-            "Normal",
-            "Flying"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 60,
+        "attack": 10,
+        "weakness": "electric",
         "evolution_id": 17
     },
     {
         "id": 17,
         "name": "Pidgeotto",
         "types": [
-            "Normal",
-            "Flying"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 30,
+        "weakness": "electric",
         "evolution_id": 18
     },
     {
         "id": 18,
         "name": "Pidgeot",
         "types": [
-            "Normal",
-            "Flying"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 130,
+        "attack": 70,
+        "weakness": "electric"
     },
     {
         "id": 19,
         "name": "Rattata",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
+        "hp": 40,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fighting",
         "evolution_id": 20
     },
     {
         "id": 20,
         "name": "Raticate",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 80,
+        "attack": 40,
+        "weakness": "fighting"
     },
     {
         "id": 21,
         "name": "Spearow",
         "types": [
-            "Normal",
-            "Flying"
+            "Nornormalmal"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "electric",
         "evolution_id": 22
     },
     {
         "id": 22,
         "name": "Fearow",
         "types": [
-            "Normal",
-            "Flying"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 50,
+        "weakness": "electric"
     },
     {
         "id": 23,
         "name": "Ekans",
         "types": [
-            "Poison"
+            "dark"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fighting",
         "evolution_id": 24
     },
     {
         "id": 24,
         "name": "Arbok",
         "types": [
-            "Poison"
+            "dark"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 60,
+        "weakness": "fighting"
     },
     {
         "id": 25,
         "name": "Pikachu",
         "types": [
-            "Electric"
+            "electric"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fighting",
         "evolution_id": 26
     },
     {
         "id": 26,
         "name": "Raichu",
         "types": [
-            "Electric"
+            "electric"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 140,
+        "weakness": "fighting"
     },
     {
         "id": 27,
         "name": "Sandshrew",
         "types": [
-            "Ground"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 70,
+        "attack": 10,
+        "weakness": "grass",
         "evolution_id": 28
     },
     {
@@ -305,1314 +292,1261 @@
         "types": [
             "Ground"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 70,
+        "weakness": "grass"
     },
     {
         "id": 29,
         "name": "Nidoran\u2640",
         "types": [
-            "Poison"
+            "dark"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 60,
+        "attack": 0,
+        "weakness": "fighting",
         "evolution_id": 30
     },
     {
         "id": 30,
         "name": "Nidorina",
         "types": [
-            "Poison"
+            "dark"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 30,
+        "weakness": "fighting",
         "evolution_id": 31
     },
     {
         "id": 31,
         "name": "Nidoqueen",
         "types": [
-            "Poison",
-            "Ground"
+            "dark"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 140,
+        "attack": 80,
+        "weakness": "fighting"
     },
     {
         "id": 32,
         "name": "Nidoran\u2642",
         "types": [
-            "Poison"
+            "dark"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fighting",
         "evolution_id": 33
     },
     {
         "id": 33,
         "name": "Nidorino",
         "types": [
-            "Poison"
+            "dark"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 90,
+        "attack": 40,
+        "weakness": "fighting",
         "evolution_id": 34
     },
     {
         "id": 34,
         "name": "Nidoking",
         "types": [
-            "Poison",
-            "Ground"
+            "dark"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 150,
+        "attack": 90,
+        "weakness": "fighting"
     },
     {
         "id": 35,
         "name": "Clefairy",
         "types": [
-            "Fairy"
+            "psy"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "metal",
         "evolution_id": 36
     },
     {
         "id": 36,
         "name": "Clefable",
         "types": [
-            "Fairy"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 60,
+        "weakness": "metal"
     },
     {
         "id": 37,
         "name": "Vulpix",
         "types": [
-            "Fire"
+            "fire"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 50,
+        "attack": 0,
+        "weakness": "water",
         "evolution_id": 38
     },
     {
         "id": 38,
         "name": "Ninetales",
         "types": [
-            "Fire"
+            "fire"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 90,
+        "attack": 90,
+        "weakness": "water"
     },
     {
         "id": 39,
         "name": "Jigglypuff",
         "types": [
-            "Normal",
-            "Fairy"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 60,
+        "attack": 30,
+        "weakness": "fighting",
         "evolution_id": 40
     },
     {
         "id": 40,
         "name": "Wigglytuff",
         "types": [
-            "Normal",
-            "Fairy"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 60,
+        "weakness": "fighting"
     },
     {
         "id": 41,
         "name": "Zubat",
         "types": [
-            "Poison",
-            "Flying"
+            "dark"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 50,
+        "attack": 10,
+        "weakness": "fighting",
         "evolution_id": 42
     },
     {
         "id": 42,
         "name": "Golbat",
         "types": [
-            "Poison",
-            "Flying"
+            "dark"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 70,
+        "attack": 40,
+        "weakness": "fighting",
         "evolution_id": 169
     },
     {
         "id": 43,
         "name": "Oddish",
         "types": [
-            "Grass",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fire",
         "evolution_id": 44
     },
     {
         "id": 44,
         "name": "Gloom",
         "types": [
-            "Grass",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 40,
+        "weakness": "fire",
         "evolution_id": 45
     },
     {
         "id": 45,
         "name": "Vileplume",
         "types": [
-            "Grass",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 140,
+        "attack": 80,
+        "weakness": "fire"
     },
     {
         "id": 46,
         "name": "Paras",
         "types": [
-            "Bug",
-            "Grass"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 70,
+        "attack": 30,
+        "weakness": "fire",
         "evolution_id": 47
     },
     {
         "id": 47,
         "name": "Parasect",
         "types": [
-            "Bug",
-            "Grass"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 120,
+        "attack": 80,
+        "weakness": "fire"
     },
     {
         "id": 48,
         "name": "Venonat",
         "types": [
-            "Bug",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fire",
         "evolution_id": 49
     },
     {
         "id": 49,
         "name": "Venomoth",
         "types": [
-            "Bug",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 80,
+        "attack": 30,
+        "weakness": "fire"
     },
     {
         "id": 50,
         "name": "Diglett",
         "types": [
-            "Ground"
+            "fighting"
         ],
-        "hp": 41,
+        "hp": 50,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "grass",
         "evolution_id": 51
     },
     {
         "id": 51,
         "name": "Dugtrio",
         "types": [
-            "Ground"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 70,
+        "attack": 40,
+        "weakness": "grass"
     },
     {
         "id": 52,
         "name": "Meowth",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 60,
+        "attack": 10,
+        "weakness": "fighting",
         "evolution_id": 53
     },
     {
         "id": 53,
         "name": "Persian",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 90,
+        "attack": 40,
+        "weakness": "fighting"
     },
     {
         "id": 54,
         "name": "Psyduck",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 60,
+        "attack": 10,
+        "weakness": "electric",
         "evolution_id": 55
     },
     {
         "id": 55,
         "name": "Golduck",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 90,
+        "attack": 70,
+        "weakness": "electric"
     },
     {
         "id": 56,
         "name": "Mankey",
         "types": [
-            "Fighting"
+            "fighting"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "psy",
         "evolution_id": 57
     },
     {
         "id": 57,
         "name": "Primeape",
         "types": [
-            "Fighting"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 90,
+        "attack": 40,
+        "weakness": "psy",
         "evolution_id": 979
     },
     {
         "id": 58,
         "name": "Growlithe",
         "types": [
-            "Fire"
+            "fire"
         ],
-        "hp": 41,
+        "hp": 70,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "water",
         "evolution_id": 59
     },
     {
         "id": 59,
         "name": "Arcanine",
         "types": [
-            "Fire"
+            "fire"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 130,
+        "attack": 100,
+        "weakness": "water"
     },
     {
         "id": 60,
         "name": "Poliwag",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 60,
+        "attack": 10,
+        "weakness": "electric",
         "evolution_id": 61
     },
     {
         "id": 61,
         "name": "Poliwhirl",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 90,
+        "attack": 40,
+        "weakness": "electric",
         "evolution_id": 62
     },
     {
         "id": 62,
         "name": "Poliwrath",
         "types": [
-            "Water",
-            "Fighting"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 150,
+        "attack": 80,
+        "weakness": "electric"
     },
     {
         "id": 63,
         "name": "Abra",
         "types": [
-            "Psychic"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 60,
+        "attack": 0,
+        "weakness": "dark",
         "evolution_id": 64
     },
     {
         "id": 64,
         "name": "Kadabra",
         "types": [
-            "Psychic"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 60,
+        "weakness": "dark",
         "evolution_id": 65
     },
     {
         "id": 65,
         "name": "Alakazam",
         "types": [
-            "Psychic"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 130,
+        "attack": 60,
+        "weakness": "dark"
     },
     {
         "id": 66,
         "name": "Machop",
         "types": [
-            "Fighting"
+            "fighting"
         ],
-        "hp": 41,
+        "hp": 70,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "psy",
         "evolution_id": 67
     },
     {
         "id": 67,
         "name": "Machoke",
         "types": [
-            "Fighting"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 100,
+        "attack": 50,
+        "weakness": "psy",
         "evolution_id": 68
     },
     {
         "id": 68,
         "name": "Machamp",
         "types": [
-            "Fighting"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 150,
+        "attack": 100,
+        "weakness": "psy"
     },
     {
         "id": 69,
         "name": "Bellsprout",
         "types": [
-            "Grass",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fire",
         "evolution_id": 70
     },
     {
         "id": 70,
         "name": "Weepinbell",
         "types": [
-            "Grass",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 90,
+        "attack": 40,
+        "weakness": "fire",
         "evolution_id": 71
     },
     {
         "id": 71,
         "name": "Victreebel",
         "types": [
-            "Grass",
-            "Poison"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 140,
+        "attack": 60,
+        "weakness": "fire"
     },
     {
         "id": 72,
         "name": "Tentacool",
         "types": [
-            "Water",
-            "Poison"
+            "water"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "electric",
         "evolution_id": 73
     },
     {
         "id": 73,
         "name": "Tentacruel",
         "types": [
-            "Water",
-            "Poison"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 110,
+        "attack": 50,
+        "weakness": "electric"
     },
     {
         "id": 74,
         "name": "Geodude",
         "types": [
-            "Rock",
-            "Ground"
+            "fighting"
         ],
-        "hp": 41,
+        "hp": 70,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "grass",
         "evolution_id": 75
     },
     {
         "id": 75,
         "name": "Graveler",
         "types": [
-            "Rock",
-            "Ground"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 100,
+        "attack": 40,
+        "weakness": "grass",
         "evolution_id": 76
     },
     {
         "id": 76,
         "name": "Golem",
         "types": [
-            "Rock",
-            "Ground"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 160,
+        "attack": 150,
+        "weakness": "grass"
     },
     {
         "id": 77,
         "name": "Ponyta",
         "types": [
-            "Fire"
+            "fire"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "water",
         "evolution_id": 78
     },
     {
         "id": 78,
         "name": "Rapidash",
         "types": [
-            "Fire"
+            "fire"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 40,
+        "weakness": "water"
     },
     {
         "id": 79,
         "name": "Slowpoke",
         "types": [
-            "Water",
-            "Psychic"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 70,
+        "attack": 30,
+        "weakness": "dark",
         "evolution_id": 80
     },
     {
         "id": 80,
         "name": "Slowbro",
         "types": [
-            "Water",
-            "Psychic"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 130,
+        "attack": 80,
+        "weakness": "dark"
     },
     {
         "id": 81,
         "name": "Magnemite",
         "types": [
-            "Electric",
-            "Steel"
+            "electric"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fighting",
         "evolution_id": 82
     },
     {
         "id": 82,
         "name": "Magneton",
         "types": [
-            "Electric",
-            "Steel"
+            "electric"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 60,
+        "weakness": "fighting",
         "evolution_id": 462
     },
     {
         "id": 83,
         "name": "Farfetch'd",
         "types": [
-            "Normal",
-            "Flying"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 60,
+        "attack": 40,
+        "weakness": "electric"
     },
     {
         "id": 84,
         "name": "Doduo",
         "types": [
-            "Normal",
-            "Flying"
+            "normal"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "electric",
         "evolution_id": 85
     },
     {
         "id": 85,
         "name": "Dodrio",
         "types": [
-            "Normal",
-            "Flying"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 80,
+        "attack": 40,
+        "weakness": "electric"
     },
     {
         "id": 86,
         "name": "Seel",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 30,
+        "weakness": "electric",
         "evolution_id": 87
     },
     {
         "id": 87,
         "name": "Dewgong",
         "types": [
-            "Water",
-            "Ice"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 120,
+        "attack": 90,
+        "weakness": "electric"
     },
     {
         "id": 88,
         "name": "Grimer",
         "types": [
-            "Poison"
+            "dark"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 70,
+        "attack": 10,
+        "weakness": "fighting",
         "evolution_id": 89
     },
     {
         "id": 89,
         "name": "Muk",
         "types": [
-            "Poison"
+            "dark"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 130,
+        "attack": 70,
+        "weakness": "fighting"
     },
     {
         "id": 90,
         "name": "Shellder",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "electric",
         "evolution_id": 91
     },
     {
         "id": 91,
         "name": "Cloyster",
         "types": [
-            "Water",
-            "Ice"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 120,
+        "attack": 70,
+        "weakness": "electric"
     },
     {
         "id": 92,
         "name": "Gastly",
         "types": [
-            "Ghost",
-            "Poison"
+            "psy"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "dark",
         "evolution_id": 93
     },
     {
         "id": 93,
         "name": "Haunter",
         "types": [
-            "Ghost",
-            "Poison"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 30,
+        "weakness": "dark",
         "evolution_id": 94
     },
     {
         "id": 94,
         "name": "Gengar",
         "types": [
-            "Ghost",
-            "Poison"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 130,
+        "attack": 50,
+        "weakness": "dark"
     },
     {
         "id": 95,
         "name": "Onix",
         "types": [
-            "Rock",
-            "Ground"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 110,
+        "attack": 70,
+        "weakness": "grass",
         "evolution_id": 208
     },
     {
         "id": 96,
         "name": "Drowzee",
         "types": [
-            "Psychic"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 70,
+        "attack": 30,
+        "weakness": "dark",
         "evolution_id": 97
     },
     {
         "id": 97,
         "name": "Hypno",
         "types": [
-            "Psychic"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 50,
+        "weakness": "dark"
     },
     {
         "id": 98,
         "name": "Krabby",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 70,
+        "attack": 40,
+        "weakness": "electric",
         "evolution_id": 99
     },
     {
         "id": 99,
         "name": "Kingler",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 120,
+        "attack": 80,
+        "weakness": "electric"
     },
     {
         "id": 100,
         "name": "Voltorb",
         "types": [
-            "Electric"
+            "electric"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fighting",
         "evolution_id": 101
     },
     {
         "id": 101,
         "name": "Electrode",
         "types": [
-            "Electric"
+            "electric"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 80,
+        "attack": 70,
+        "weakness": "fighting"
     },
     {
         "id": 102,
         "name": "Exeggcute",
         "types": [
-            "Grass",
-            "Psychic"
+            "grass"
         ],
-        "hp": 41,
+        "hp": 50,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fire",
         "evolution_id": 103
     },
     {
         "id": 103,
         "name": "Exeggutor",
         "types": [
-            "Grass",
-            "Psychic"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 130,
+        "attack": 30,
+        "weakness": "fire"
     },
     {
         "id": 104,
         "name": "Cubone",
         "types": [
-            "Ground"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 60,
+        "attack": 0,
+        "weakness": "grass",
         "evolution_id": 105
     },
     {
         "id": 105,
         "name": "Marowak",
         "types": [
-            "Ground"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 40,
+        "weakness": "grass"
     },
     {
         "id": 106,
         "name": "Hitmonlee",
         "types": [
-            "Fighting"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 80,
+        "attack": 30,
+        "weakness": "psy"
     },
     {
         "id": 107,
         "name": "Hitmonchan",
         "types": [
-            "Fighting"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 80,
+        "attack": 30,
+        "weakness": "psy"
     },
     {
         "id": 108,
         "name": "Lickitung",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 50,
+        "weakness": "fighting",
         "evolution_id": 463
     },
     {
         "id": 109,
         "name": "Koffing",
         "types": [
-            "Poison"
+            "dark"
         ],
-        "hp": 41,
+        "hp": 70,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fighting",
         "evolution_id": 110
     },
     {
         "id": 110,
         "name": "Weezing",
         "types": [
-            "Poison"
+            "dark"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 110,
+        "attack": 30,
+        "weakness": "fighting"
     },
     {
         "id": 111,
         "name": "Rhyhorn",
         "types": [
-            "Ground",
-            "Rock"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 60,
+        "weakness": "grass",
         "evolution_id": 112
     },
     {
         "id": 112,
         "name": "Rhydon",
         "types": [
-            "Ground",
-            "Rock"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 120,
+        "attack": 100,
+        "weakness": "grass",
         "evolution_id": 464
     },
     {
         "id": 113,
         "name": "Chansey",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 120,
+        "attack": 60,
+        "weakness": "fighting",
         "evolution_id": 242
     },
     {
         "id": 114,
         "name": "Tangela",
         "types": [
-            "Grass"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 40,
+        "weakness": "fire",
         "evolution_id": 465
     },
     {
         "id": 115,
         "name": "Kangaskhan",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 30,
+        "weakness": "fighting"
     },
     {
         "id": 116,
         "name": "Horsea",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "electric",
         "evolution_id": 117
     },
     {
         "id": 117,
         "name": "Seadra",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 70,
+        "attack": 50,
+        "weakness": "electric",
         "evolution_id": 230
     },
     {
         "id": 118,
         "name": "Goldeen",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 60,
+        "attack": 10,
+        "weakness": "electric",
         "evolution_id": 119
     },
     {
         "id": 119,
         "name": "Seaking",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 80,
+        "weakness": "electric"
     },
     {
         "id": 120,
         "name": "Staryu",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
+        "hp": 50,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "electric",
         "evolution_id": 121
     },
     {
         "id": 121,
         "name": "Starmie",
         "types": [
-            "Water",
-            "Psychic"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 90,
+        "attack": 40,
+        "weakness": "electric"
     },
     {
         "id": 122,
         "name": "Mr. Mime",
         "types": [
-            "Psychic",
-            "Fairy"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 80,
+        "attack": 30,
+        "weakness": "dark"
     },
     {
         "id": 123,
         "name": "Scyther",
         "types": [
-            "Bug",
-            "Flying"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 70,
+        "attack": 30,
+        "weakness": "fire",
         "evolution_id": 212
     },
     {
         "id": 124,
         "name": "Jynx",
         "types": [
-            "Ice",
-            "Psychic"
+            "psy"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 80,
+        "attack": 30,
+        "weakness": "dark"
     },
     {
         "id": 125,
         "name": "Electabuzz",
         "types": [
-            "Electric"
+            "electric"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 70,
+        "attack": 40,
+        "weakness": "fighting",
         "evolution_id": 466
     },
     {
         "id": 126,
         "name": "Magmar",
         "types": [
-            "Fire"
+            "fire"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 80,
+        "attack": 50,
+        "weakness": "water",
         "evolution_id": 467
     },
     {
         "id": 127,
         "name": "Pinsir",
         "types": [
-            "Bug"
+            "grass"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 90,
+        "attack": 50,
+        "weakness": "fire"
     },
     {
         "id": 128,
         "name": "Tauros",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 50,
+        "weakness": "fighting"
     },
     {
         "id": 129,
         "name": "Magikarp",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 30,
+        "attack": 10,
+        "weakness": "electric",
         "evolution_id": 130
     },
     {
         "id": 130,
         "name": "Gyarados",
         "types": [
-            "Water",
-            "Flying"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
+        "hp": 150,
+        "attack": 100,
         "weakness": "none"
     },
     {
         "id": 131,
         "name": "Lapras",
         "types": [
-            "Water",
-            "Ice"
+            "water"
         ],
-        "hp": 41,
+        "hp": 100,
         "attack": 20,
-        "weakness": "none"
+        "weakness": "electric"
     },
     {
         "id": 132,
         "name": "Ditto",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 70,
+        "attack": 0,
+        "weakness": "fighting"
     },
     {
         "id": 133,
         "name": "Eevee",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
+        "hp": 60,
         "attack": 20,
-        "weakness": "none"
+        "weakness": "fighting"
     },
     {
         "id": 134,
         "name": "Vaporeon",
         "types": [
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 130,
+        "attack": 60,
+        "weakness": "electric"
     },
     {
         "id": 135,
         "name": "Jolteon",
         "types": [
-            "Electric"
+            "electric"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 90,
+        "attack": 40,
+        "weakness": "fighting"
     },
     {
         "id": 136,
         "name": "Flareon",
         "types": [
-            "Fire"
+            "fire"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 120,
+        "attack": 110,
+        "weakness": "water"
     },
     {
         "id": 137,
         "name": "Porygon",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
+        "hp": 50,
         "attack": 20,
-        "weakness": "none",
+        "weakness": "fighting",
         "evolution_id": 233
     },
     {
         "id": 138,
         "name": "Omanyte",
         "types": [
-            "Rock",
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 90,
+        "attack": 40,
+        "weakness": "electric",
         "evolution_id": 139
     },
     {
         "id": 139,
         "name": "Omastar",
         "types": [
-            "Rock",
-            "Water"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 140,
+        "attack": 70,
+        "weakness": "electric"
     },
     {
         "id": 140,
         "name": "Kabuto",
         "types": [
-            "Rock",
-            "Water"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none",
+        "hp": 90,
+        "attack": 40,
+        "weakness": "grass",
         "evolution_id": 141
     },
     {
         "id": 141,
         "name": "Kabutops",
         "types": [
-            "Rock",
-            "Water"
+            "fighting"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 140,
+        "attack": 50,
+        "weakness": "grass"
     },
     {
         "id": 142,
         "name": "Aerodactyl",
         "types": [
-            "Rock",
-            "Flying"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 0,
+        "weakness": "electric"
     },
     {
         "id": 143,
         "name": "Snorlax",
         "types": [
-            "Normal"
+            "normal"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 150,
+        "attack": 70,
+        "weakness": "fighting"
     },
     {
         "id": 144,
         "name": "Articuno",
         "types": [
-            "Ice",
-            "Flying"
+            "water"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 60,
+        "weakness": "electric"
     },
     {
         "id": 145,
         "name": "Zapdos",
         "types": [
-            "Electric",
-            "Flying"
+            "electric"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 100,
+        "weakness": "electric"
     },
     {
         "id": 146,
         "name": "Moltres",
         "types": [
-            "Fire",
-            "Flying"
+            "fire"
         ],
-        "hp": 41,
-        "attack": 20,
-        "weakness": "none"
+        "hp": 100,
+        "attack": 130,
+        "weakness": "electric"
     },
     {
         "id": 147,
         "name": "Dratini",
         "types": [
-            "Dragon"
+            "dragon"
         ],
-        "hp": 41,
-        "attack": 20,
+        "hp": 70,
+        "attack": 40,
         "weakness": "none",
         "evolution_id": 148
     },
@@ -1620,11 +1554,10 @@
         "id": 148,
         "name": "Dragonair",
         "types": [
-            "Dragon"
+            "dragon"
         ],
-        "hp": 80,
-        "attack": 60,
-        "attack2": 0,
+        "hp": 100,
+        "attack": 80,
         "weakness": "none",
         "evolution_id": 149
     },
@@ -1632,23 +1565,21 @@
         "id": 149,
         "name": "Dragonite",
         "types": [
-            "Dragon",
-            "Flying"
+            "dragon"
         ],
-        "hp": 150,
+        "hp": 160,
         "attack": 200,
-        "attack2": 0,
         "weakness": "none"
     },
     {
         "id": 150,
         "name": "Mewtwo",
         "types": [
-            "Psychic"
+            "psy"
         ],
         "hp": 150,
         "attack": 50,
         "attack2": 150,
-        "weakness": "Dark"
+        "weakness": "dark"
     }
 ]
