@@ -1,6 +1,7 @@
 from dataclasses import dataclass, asdict
 from typing import Union
-from fastapi import FastAPI, HTTPException, Path
+from fastapi import FastAPI, HTTPException, Path, Depends
+from sqlalchemy.orm import Session
 from database import SessionLocal, engine
 import models
 import json
@@ -26,9 +27,38 @@ class Pokemon() :
 models.Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
+#===========================DB============================
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
+#==========================Startup=========================
+@app.on_event("startup")
+def startup_populate_db():
+    db = SessionLocal()
+    num_pokemons = db.query(models.Pokemon_table).count()
+    if num_pokemons == 0:
+        Pokemon_table = [
+            {'id': 1, 'name': 'bulbizarre', 'hp': 60, 'attack': 20, 'weakness': 'fire', 'evolution_id': 2}
+        ]
+        for pokemon in Pokemon_table:
+            db.add(models.Pokemon_table(**pokemon))
+        db.commit()
+        print(num_pokemons)
+        db.close()
+    else:
+        print(f"{num_pokemons} pokemon est déjà dans la DB")
+        db.close()
+
+
 #===========================GET============================
 @app.get("/total_pokemons")
-def get_total_pokemons() -> dict:
+def get_total_pokemons(db: Session = Depends(get_db)) -> dict:
+    pokemons_test = db.query(models.Pokemon_table).all()
+    print(pokemons_test)
     return {"total":len(list_pokemons)}
 
 @app.get("/pokemons")
