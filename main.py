@@ -1,6 +1,8 @@
 from dataclasses import dataclass, asdict
 from typing import Union
 from fastapi import FastAPI, HTTPException, Path
+from database import SessionLocal, engine
+import models
 import json
 import math
 
@@ -21,6 +23,7 @@ class Pokemon() :
     weakness: str
     evolution_id: Union[int, None] = None
 
+models.Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 #===========================GET============================
