@@ -53,29 +53,6 @@ def startup_populate_db():
         print(f"{num_pokemons} pokemon est déjà dans la DB")
         db.close()
 
-
-#===========================GET============================
-@app.get("/total_pokemons")
-def get_total_pokemons(db: Session = Depends(get_db)) -> dict:
-    pokemons_test = db.query(models.Pokemon_table).all()
-    print(pokemons_test)
-    return {"total":len(list_pokemons)}
-
-@app.get("/pokemons")
-def get_all_pokemons1() -> list[Pokemon]:
-    res = []
-    for id in list_pokemons :
-        res.append(Pokemon(**list_pokemons[id]))
-    return res
-
-@app.get("/pokemon/{id}")
-def get_pokemon_by_id(id: int = Path(ge=1)) -> Pokemon :
-
-    if id not in list_pokemons :
-        raise HTTPException(status_code=404, detail="Ce pokemon n'existe pas")
-    
-    return Pokemon(**list_pokemons[id])
-
 #===========================POST============================
 @app.post("/pokemon/")
 def create_pokemon(pokemon: Pokemon) -> Pokemon:
