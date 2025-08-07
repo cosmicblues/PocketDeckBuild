@@ -3,13 +3,13 @@ from fastapi import FastAPI, HTTPException, Path, Depends
 from sqlalchemy.orm import Session
 from database import SessionLocal, engine
 from fastapi import FastAPI
-
-from pokemons.getAllPokemons import router as get_all_pokemons
-
 import models
-import json
 import math
 import uvicorn
+
+from api.pokemons_routes.getAllPokemons import api as getPokemons
+
+
 
 
 # Structure de données #
@@ -22,7 +22,10 @@ app = FastAPI()
 def hello_world():
     return {"Hello": "World"}
 
-app.include_router(get_all_pokemons)
+app.include_router(getPokemons)
+
+#if __name__ == '__main__':
+#    app.run(debug=True)
 
 #===========================DB============================
 #def get_db():
