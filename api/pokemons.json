@@ -2,9 +2,7 @@
     {
         "id": 1,
         "name": "Bulbasaur",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 70,
         "attack": 40,
         "weakness": "fire",
@@ -13,9 +11,7 @@
     {
         "id": 2,
         "name": "Ivysaur",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 90,
         "attack": 60,
         "weakness": "fire",
@@ -24,9 +20,7 @@
     {
         "id": 3,
         "name": "Venusaur",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 160,
         "attack": 80,
         "weakness": "fire"
@@ -34,9 +28,7 @@
     {
         "id": 4,
         "name": "Charmander",
-        "types": [
-            "fire"
-        ],
+        "types": "fire",
         "hp": 60,
         "attack": 20,
         "weakness": "water",
@@ -45,9 +37,7 @@
     {
         "id": 5,
         "name": "Charmeleon",
-        "types": [
-            "fire"
-        ],
+        "types": "fire",
         "hp": 90,
         "attack": 60,
         "weakness": "water",
@@ -56,9 +46,7 @@
     {
         "id": 6,
         "name": "Charizard",
-        "types": [
-            "fire"
-        ],
+        "types": "fire",
         "hp": 150,
         "attack": 150,
         "weakness": "water"
@@ -66,9 +54,7 @@
     {
         "id": 7,
         "name": "Squirtle",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 60,
         "attack": 20,
         "weakness": "electric",
@@ -77,9 +63,7 @@
     {
         "id": 8,
         "name": "Wartortle",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 80,
         "attack": 40,
         "weakness": "electric",
@@ -88,9 +72,7 @@
     {
         "id": 9,
         "name": "Blastoise",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 150,
         "attack": 80,
         "weakness": "electric"
@@ -98,9 +80,7 @@
     {
         "id": 10,
         "name": "Caterpie",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 50,
         "attack": 0,
         "weakness": "fire",
@@ -109,9 +89,7 @@
     {
         "id": 11,
         "name": "Metapod",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 80,
         "attack": 30,
         "weakness": "fire",
@@ -120,9 +98,7 @@
     {
         "id": 12,
         "name": "Butterfree",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 120,
         "attack": 60,
         "weakness": "fire"
@@ -130,9 +106,7 @@
     {
         "id": 13,
         "name": "Weedle",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 50,
         "attack": 20,
         "weakness": "fire",
@@ -141,9 +115,7 @@
     {
         "id": 14,
         "name": "Kakuna",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 80,
         "attack": 30,
         "weakness": "fire",
@@ -152,9 +124,7 @@
     {
         "id": 15,
         "name": "Beedrill",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 120,
         "attack": 70,
         "weakness": "fire"
@@ -162,9 +132,7 @@
     {
         "id": 16,
         "name": "Pidgey",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 60,
         "attack": 10,
         "weakness": "electric",
@@ -173,9 +141,7 @@
     {
         "id": 17,
         "name": "Pidgeotto",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 80,
         "attack": 30,
         "weakness": "electric",
@@ -184,9 +150,7 @@
     {
         "id": 18,
         "name": "Pidgeot",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 130,
         "attack": 70,
         "weakness": "electric"
@@ -194,9 +158,7 @@
     {
         "id": 19,
         "name": "Rattata",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 40,
         "attack": 20,
         "weakness": "fighting",
@@ -205,9 +167,7 @@
     {
         "id": 20,
         "name": "Raticate",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 80,
         "attack": 40,
         "weakness": "fighting"
@@ -215,9 +175,7 @@
     {
         "id": 21,
         "name": "Spearow",
-        "types": [
-            "Nornormalmal"
-        ],
+        "types": "Normal",
         "hp": 60,
         "attack": 20,
         "weakness": "electric",
@@ -226,9 +184,7 @@
     {
         "id": 22,
         "name": "Fearow",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 100,
         "attack": 50,
         "weakness": "electric"
@@ -236,9 +192,7 @@
     {
         "id": 23,
         "name": "Ekans",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 60,
         "attack": 20,
         "weakness": "fighting",
@@ -247,9 +201,7 @@
     {
         "id": 24,
         "name": "Arbok",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 100,
         "attack": 60,
         "weakness": "fighting"
@@ -257,9 +209,7 @@
     {
         "id": 25,
         "name": "Pikachu",
-        "types": [
-            "electric"
-        ],
+        "types": "electric",
         "hp": 60,
         "attack": 20,
         "weakness": "fighting",
@@ -268,9 +218,7 @@
     {
         "id": 26,
         "name": "Raichu",
-        "types": [
-            "electric"
-        ],
+        "types": "electric",
         "hp": 100,
         "attack": 140,
         "weakness": "fighting"
@@ -278,9 +226,7 @@
     {
         "id": 27,
         "name": "Sandshrew",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 70,
         "attack": 10,
         "weakness": "grass",
@@ -289,9 +235,7 @@
     {
         "id": 28,
         "name": "Sandslash",
-        "types": [
-            "Ground"
-        ],
+        "types": "Fighting",
         "hp": 100,
         "attack": 70,
         "weakness": "grass"
@@ -299,9 +243,7 @@
     {
         "id": 29,
         "name": "Nidoran\u2640",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 60,
         "attack": 0,
         "weakness": "fighting",
@@ -310,9 +252,7 @@
     {
         "id": 30,
         "name": "Nidorina",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 80,
         "attack": 30,
         "weakness": "fighting",
@@ -321,9 +261,7 @@
     {
         "id": 31,
         "name": "Nidoqueen",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 140,
         "attack": 80,
         "weakness": "fighting"
@@ -331,9 +269,7 @@
     {
         "id": 32,
         "name": "Nidoran\u2642",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 60,
         "attack": 20,
         "weakness": "fighting",
@@ -342,9 +278,7 @@
     {
         "id": 33,
         "name": "Nidorino",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 90,
         "attack": 40,
         "weakness": "fighting",
@@ -353,9 +287,7 @@
     {
         "id": 34,
         "name": "Nidoking",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 150,
         "attack": 90,
         "weakness": "fighting"
@@ -363,9 +295,7 @@
     {
         "id": 35,
         "name": "Clefairy",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 60,
         "attack": 20,
         "weakness": "metal",
@@ -374,9 +304,7 @@
     {
         "id": 36,
         "name": "Clefable",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 100,
         "attack": 60,
         "weakness": "metal"
@@ -384,9 +312,7 @@
     {
         "id": 37,
         "name": "Vulpix",
-        "types": [
-            "fire"
-        ],
+        "types": "fire",
         "hp": 50,
         "attack": 0,
         "weakness": "water",
@@ -395,9 +321,7 @@
     {
         "id": 38,
         "name": "Ninetales",
-        "types": [
-            "fire"
-        ],
+        "types": "fire",
         "hp": 90,
         "attack": 90,
         "weakness": "water"
@@ -405,9 +329,7 @@
     {
         "id": 39,
         "name": "Jigglypuff",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 60,
         "attack": 30,
         "weakness": "fighting",
@@ -416,9 +338,7 @@
     {
         "id": 40,
         "name": "Wigglytuff",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 100,
         "attack": 60,
         "weakness": "fighting"
@@ -426,9 +346,7 @@
     {
         "id": 41,
         "name": "Zubat",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 50,
         "attack": 10,
         "weakness": "fighting",
@@ -437,9 +355,7 @@
     {
         "id": 42,
         "name": "Golbat",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 70,
         "attack": 40,
         "weakness": "fighting",
@@ -448,9 +364,7 @@
     {
         "id": 43,
         "name": "Oddish",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 60,
         "attack": 20,
         "weakness": "fire",
@@ -459,9 +373,7 @@
     {
         "id": 44,
         "name": "Gloom",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 80,
         "attack": 40,
         "weakness": "fire",
@@ -470,9 +382,7 @@
     {
         "id": 45,
         "name": "Vileplume",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 140,
         "attack": 80,
         "weakness": "fire"
@@ -480,9 +390,7 @@
     {
         "id": 46,
         "name": "Paras",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 70,
         "attack": 30,
         "weakness": "fire",
@@ -491,9 +399,7 @@
     {
         "id": 47,
         "name": "Parasect",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 120,
         "attack": 80,
         "weakness": "fire"
@@ -501,9 +407,7 @@
     {
         "id": 48,
         "name": "Venonat",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 60,
         "attack": 20,
         "weakness": "fire",
@@ -512,9 +416,7 @@
     {
         "id": 49,
         "name": "Venomoth",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 80,
         "attack": 30,
         "weakness": "fire"
@@ -522,9 +424,7 @@
     {
         "id": 50,
         "name": "Diglett",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 50,
         "attack": 20,
         "weakness": "grass",
@@ -533,9 +433,7 @@
     {
         "id": 51,
         "name": "Dugtrio",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 70,
         "attack": 40,
         "weakness": "grass"
@@ -543,9 +441,7 @@
     {
         "id": 52,
         "name": "Meowth",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 60,
         "attack": 10,
         "weakness": "fighting",
@@ -554,9 +450,7 @@
     {
         "id": 53,
         "name": "Persian",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 90,
         "attack": 40,
         "weakness": "fighting"
@@ -564,9 +458,7 @@
     {
         "id": 54,
         "name": "Psyduck",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 60,
         "attack": 10,
         "weakness": "electric",
@@ -575,9 +467,7 @@
     {
         "id": 55,
         "name": "Golduck",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 90,
         "attack": 70,
         "weakness": "electric"
@@ -585,9 +475,7 @@
     {
         "id": 56,
         "name": "Mankey",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 60,
         "attack": 20,
         "weakness": "psy",
@@ -596,9 +484,7 @@
     {
         "id": 57,
         "name": "Primeape",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 90,
         "attack": 40,
         "weakness": "psy",
@@ -607,9 +493,7 @@
     {
         "id": 58,
         "name": "Growlithe",
-        "types": [
-            "fire"
-        ],
+        "types": "fire",
         "hp": 70,
         "attack": 20,
         "weakness": "water",
@@ -618,9 +502,7 @@
     {
         "id": 59,
         "name": "Arcanine",
-        "types": [
-            "fire"
-        ],
+        "types": "fire",
         "hp": 130,
         "attack": 100,
         "weakness": "water"
@@ -628,9 +510,7 @@
     {
         "id": 60,
         "name": "Poliwag",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 60,
         "attack": 10,
         "weakness": "electric",
@@ -639,9 +519,7 @@
     {
         "id": 61,
         "name": "Poliwhirl",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 90,
         "attack": 40,
         "weakness": "electric",
@@ -650,9 +528,7 @@
     {
         "id": 62,
         "name": "Poliwrath",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 150,
         "attack": 80,
         "weakness": "electric"
@@ -660,9 +536,7 @@
     {
         "id": 63,
         "name": "Abra",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 60,
         "attack": 0,
         "weakness": "dark",
@@ -671,9 +545,7 @@
     {
         "id": 64,
         "name": "Kadabra",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 80,
         "attack": 60,
         "weakness": "dark",
@@ -682,9 +554,7 @@
     {
         "id": 65,
         "name": "Alakazam",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 130,
         "attack": 60,
         "weakness": "dark"
@@ -692,9 +562,7 @@
     {
         "id": 66,
         "name": "Machop",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 70,
         "attack": 20,
         "weakness": "psy",
@@ -703,9 +571,7 @@
     {
         "id": 67,
         "name": "Machoke",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 100,
         "attack": 50,
         "weakness": "psy",
@@ -714,9 +580,7 @@
     {
         "id": 68,
         "name": "Machamp",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 150,
         "attack": 100,
         "weakness": "psy"
@@ -724,9 +588,7 @@
     {
         "id": 69,
         "name": "Bellsprout",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 60,
         "attack": 20,
         "weakness": "fire",
@@ -735,9 +597,7 @@
     {
         "id": 70,
         "name": "Weepinbell",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 90,
         "attack": 40,
         "weakness": "fire",
@@ -746,9 +606,7 @@
     {
         "id": 71,
         "name": "Victreebel",
-        "types": [
-            "grass"
-        ],
+        "types": "grass",
         "hp": 140,
         "attack": 60,
         "weakness": "fire"
@@ -756,9 +614,7 @@
     {
         "id": 72,
         "name": "Tentacool",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 60,
         "attack": 20,
         "weakness": "electric",
@@ -767,9 +623,7 @@
     {
         "id": 73,
         "name": "Tentacruel",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 110,
         "attack": 50,
         "weakness": "electric"
@@ -777,9 +631,7 @@
     {
         "id": 74,
         "name": "Geodude",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 70,
         "attack": 20,
         "weakness": "grass",
@@ -788,9 +640,7 @@
     {
         "id": 75,
         "name": "Graveler",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 100,
         "attack": 40,
         "weakness": "grass",
@@ -799,9 +649,7 @@
     {
         "id": 76,
         "name": "Golem",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 160,
         "attack": 150,
         "weakness": "grass"
@@ -809,9 +657,7 @@
     {
         "id": 77,
         "name": "Ponyta",
-        "types": [
-            "fire"
-        ],
+        "types": "fire",
         "hp": 60,
         "attack": 20,
         "weakness": "water",
@@ -820,9 +666,7 @@
     {
         "id": 78,
         "name": "Rapidash",
-        "types": [
-            "fire"
-        ],
+        "types": "fire",
         "hp": 100,
         "attack": 40,
         "weakness": "water"
@@ -830,9 +674,7 @@
     {
         "id": 79,
         "name": "Slowpoke",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 70,
         "attack": 30,
         "weakness": "dark",
@@ -841,9 +683,7 @@
     {
         "id": 80,
         "name": "Slowbro",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 130,
         "attack": 80,
         "weakness": "dark"
@@ -851,9 +691,7 @@
     {
         "id": 81,
         "name": "Magnemite",
-        "types": [
-            "electric"
-        ],
+        "types": "electric",
         "hp": 60,
         "attack": 20,
         "weakness": "fighting",
@@ -862,9 +700,7 @@
     {
         "id": 82,
         "name": "Magneton",
-        "types": [
-            "electric"
-        ],
+        "types": "electric",
         "hp": 80,
         "attack": 60,
         "weakness": "fighting",
@@ -873,9 +709,7 @@
     {
         "id": 83,
         "name": "Farfetch'd",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 60,
         "attack": 40,
         "weakness": "electric"
@@ -883,9 +717,7 @@
     {
         "id": 84,
         "name": "Doduo",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 60,
         "attack": 20,
         "weakness": "electric",
@@ -894,9 +726,7 @@
     {
         "id": 85,
         "name": "Dodrio",
-        "types": [
-            "normal"
-        ],
+        "types": "normal",
         "hp": 80,
         "attack": 40,
         "weakness": "electric"
@@ -904,9 +734,7 @@
     {
         "id": 86,
         "name": "Seel",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 80,
         "attack": 30,
         "weakness": "electric",
@@ -915,9 +743,7 @@
     {
         "id": 87,
         "name": "Dewgong",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 120,
         "attack": 90,
         "weakness": "electric"
@@ -925,9 +751,7 @@
     {
         "id": 88,
         "name": "Grimer",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 70,
         "attack": 10,
         "weakness": "fighting",
@@ -936,9 +760,7 @@
     {
         "id": 89,
         "name": "Muk",
-        "types": [
-            "dark"
-        ],
+        "types": "dark",
         "hp": 130,
         "attack": 70,
         "weakness": "fighting"
@@ -946,9 +768,7 @@
     {
         "id": 90,
         "name": "Shellder",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 60,
         "attack": 20,
         "weakness": "electric",
@@ -957,9 +777,7 @@
     {
         "id": 91,
         "name": "Cloyster",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 120,
         "attack": 70,
         "weakness": "electric"
@@ -967,9 +785,7 @@
     {
         "id": 92,
         "name": "Gastly",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 60,
         "attack": 20,
         "weakness": "dark",
@@ -978,9 +794,7 @@
     {
         "id": 93,
         "name": "Haunter",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 80,
         "attack": 30,
         "weakness": "dark",
@@ -989,9 +803,7 @@
     {
         "id": 94,
         "name": "Gengar",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 130,
         "attack": 50,
         "weakness": "dark"
@@ -999,9 +811,7 @@
     {
         "id": 95,
         "name": "Onix",
-        "types": [
-            "fighting"
-        ],
+        "types": "fighting",
         "hp": 110,
         "attack": 70,
         "weakness": "grass",
@@ -1010,9 +820,7 @@
     {
         "id": 96,
         "name": "Drowzee",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 70,
         "attack": 30,
         "weakness": "dark",
@@ -1021,9 +829,7 @@
     {
         "id": 97,
         "name": "Hypno",
-        "types": [
-            "psy"
-        ],
+        "types": "psy",
         "hp": 100,
         "attack": 50,
         "weakness": "dark"
@@ -1031,9 +837,7 @@
     {
         "id": 98,
         "name": "Krabby",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 70,
         "attack": 40,
         "weakness": "electric",
@@ -1042,9 +846,7 @@
     {
         "id": 99,
         "name": "Kingler",
-        "types": [
-            "water"
-        ],
+        "types": "water",
         "hp": 120,
         "attack": 80,
         "weakness": "electric"
@@ -1052,9 +854,7 @@
     {
         "id": 100,
         "name": "Voltorb",
-        "types": [
-            "electric"
-        ],
+        "types": "electric",
         "hp": 60,
         "attack": 20,
         "weakness": "fighting",

@@ -1,9 +1,9 @@
 from typing import Union
 from pydantic import BaseModel
 
-from models import Pokemon_table
+from api.model.models import Pokemon_table
 
-class Pokemon(BaseModel) :
+class Pokemon(BaseModel):
     id: int
     name: str
     types: list[str]
@@ -11,3 +11,9 @@ class Pokemon(BaseModel) :
     attack: int
     weakness: str
     evolution_id: Union[int, None] = None
+
+class PokemonCreate(BaseModel):
+    """A class containing pydantic data validation for creating a Pokemon model row."""
+
+class PokemonUpdate(BaseModel):
+    """A class containing pydantic data validation for updating a Pokemon model row."""

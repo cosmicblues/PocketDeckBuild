@@ -1,20 +1,19 @@
-from dataclasses import dataclass, asdict
-from fastapi import FastAPI, HTTPException, Path, Depends
+from fastapi import FastAPI, HTTPException
 from sqlalchemy.orm import Session
-from database import SessionLocal, engine
+from api.database.database import SessionLocal, engine
 from fastapi import FastAPI
-import models
+import api.model.models as models
 import math
 import uvicorn
-
+from api.poke_json import list_pokemons
 from api.pokemons_routes.getAllPokemons import api as getPokemons
 
 
 
 
 # Structure de données #
+models.Base.metadata.create_all(bind=engine)
 
-#models.Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 #===========================TEST============================
@@ -24,28 +23,16 @@ def hello_world():
 
 app.include_router(getPokemons)
 
-#if __name__ == '__main__':
-#    app.run(debug=True)
-
-#===========================DB============================
-#def get_db():
-#    db = SessionLocal()
-#    try:
-#        yield db
-#    finally:
-#        db.close()
-
 #==========================Startup=========================
-""" @app.on_event("startup")
+@app.on_event("startup")
 def startup_populate_db():
     db = SessionLocal()
-    num_pokemons = db.query(models.Pokemon_table).count()
-    if num_pokemons == 0:
-        Pokemon_table = [
-            {'id': 1, 'name': 'bulbizarre', 'hp': 60, 'attack': 20, 'weakness': 'fire', 'evolution_id': 2}
-        ]
+    num_pokemons = db.query(models.Pokemon_table)
+    if num_pokemons:
+        Pokemon_table = list_pokemons
         for pokemon in Pokemon_table:
-            db.add(models.Pokemon_table(**pokemon))
+            print(pokemon)
+            db.add(models.Pokemon_table(**list_pokemons))
         db.commit()
         print(num_pokemons)
         db.close()
@@ -53,24 +40,7 @@ def startup_populate_db():
         print(f"{num_pokemons} pokemon est déjà dans la DB")
         db.close()
 
-#===========================POST============================
-@app.post("/pokemon/")
-def create_pokemon(pokemon: Pokemon) -> Pokemon:
-    if pokemon.id in list_pokemons :
-        raise HTTPException(status_code=404, detail=f"Le pokemon {pokemon.id} existe déjà !")
-    
-    list_pokemons[pokemon.id] = asdict(pokemon)
-    return pokemon
-
-#===========================PUT============================
-@app.put("/pokemon/{id}")
-def update_pokemon(pokemon: Pokemon, id: int = Path(ge=1)) -> Pokemon:
-    if id not in list_pokemons :
-        raise HTTPException(status_code=404, detail=f"Le pokemon {id} n'existe pas.")
-    
-    list_pokemons[id] = asdict(pokemon)
-    return pokemon
-
+"""
 #===========================DELETE============================
 @app.delete("/pokemon/{id}")
 def delete_pokemon(id: int = Path(ge=1)) -> Pokemon:
