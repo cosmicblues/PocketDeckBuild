@@ -6,7 +6,7 @@ from api.model.models import Pokemon_table
 class Pokemon(BaseModel):
     id: int
     name: str
-    types: list[str]
+    types: str
     hp: int
     attack: int
     weakness: str

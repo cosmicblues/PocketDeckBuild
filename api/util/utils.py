@@ -1,6 +1,6 @@
 """Define utility functions."""
 from sqlalchemy.orm import Session
-from api.model.pokemons_crud import Crud
+from api.model.crud.pokemons_crud import Crud
 from api.database.database import SessionLocal
 
 

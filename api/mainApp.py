@@ -1,11 +1,12 @@
 from fastapi import FastAPI, HTTPException
 from sqlalchemy.orm import Session
+import json
 from api.database.database import SessionLocal, engine
 from fastapi import FastAPI
 import api.model.models as models
 import math
 import uvicorn
-from api.poke_json import list_pokemons
+from api.poke_json import list_pokemons, pokemons_list
 from api.pokemons_routes.getAllPokemons import api as getPokemons
 
 
@@ -28,16 +29,18 @@ app.include_router(getPokemons)
 def startup_populate_db():
     db = SessionLocal()
     num_pokemons = db.query(models.Pokemon_table)
-    if num_pokemons:
-        Pokemon_table = list_pokemons
+    if num_pokemons.count() == 0:
+        Pokemon_table = pokemons_list
         for pokemon in Pokemon_table:
-            print(pokemon)
-            db.add(models.Pokemon_table(**list_pokemons))
+            #print([pokemon])
+            #print(Pokemon_table[0]['name'])
+            db.add(models.Pokemon_table(**pokemon))
+            #print(pokemon)
         db.commit()
-        print(num_pokemons)
+        #print(num_pokemons)
         db.close()
     else:
-        print(f"{num_pokemons} pokemon est déjà dans la DB")
+        print(f"{num_pokemons.count()} pokemon est déjà dans la DB")
         db.close()
 
 """
