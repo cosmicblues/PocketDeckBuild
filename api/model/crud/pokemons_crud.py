@@ -47,9 +47,9 @@ class SqlPokemonCRUD(PokemonCRUD):
 
     @staticmethod
     def update_pokemon(dbb: Session, pokemon: PokemonUpdate):
-        pokemon_in_db = SqlPokemonCRUD.get_pokemon_by_id(dbb, pokemon.pokemon.id)
-
+        pokemon_in_db = SqlPokemonCRUD.get_pokemon_by_id(dbb, Pokemon_table.id)
         pokemon_in_db.name = pokemon.name
+        pokemon_in_db.types = pokemon.types
         pokemon_in_db.hp = pokemon.hp
         pokemon_in_db.attack = pokemon.attack
         pokemon_in_db.weakness = pokemon.weakness
