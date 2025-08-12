@@ -8,9 +8,10 @@ import math
 import uvicorn
 from api.poke_json import list_pokemons, pokemons_list
 from api.pokemons_routes.getAllPokemons import router as getPokemons
-
-
-
+from api.pokemons_routes.addPokemon import router as addPokemon
+#from api.pokemons_routes.deleteAllPokemons import router as deleteAllPokemons
+from api.pokemons_routes.deletePokemon import router as deletePokemon
+from api.pokemons_routes.updatePokemon import router as updatePokemon
 
 # Structure de données #
 models.Base.metadata.create_all(bind=engine)
@@ -23,6 +24,9 @@ def hello_world():
     return {"Hello": "World"}
 
 app.include_router(getPokemons)
+app.include_router(addPokemon)
+app.include_router(deletePokemon)
+app.include_router(updatePokemon)
 
 #==========================Startup=========================
 @app.on_event("startup")

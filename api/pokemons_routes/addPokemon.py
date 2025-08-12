@@ -5,14 +5,12 @@ from fastapi import APIRouter, HTTPException, Path, Depends
 from sqlalchemy.orm import Session
 from schema.schemas import Pokemon
 from api.poke_json import list_pokemons
-from getAllPokemons import api
-from api.util.utils import get_db, get_pizza_by_id_if_exists
+from api.util.utils import get_db
+from api.pokemons_routes.getAllPokemons import router
+from api.schema.schemas import PokemonInDB, PokemonCreate
+from api.model.crud.crud import Crud
 
 #===========================POST============================
-@api.post("/pokemon/")
-def create_pokemon(pokemon: Pokemon) -> Pokemon:
-    if pokemon.id in list_pokemons :
-        raise HTTPException(status_code=404, detail=f"Le pokemon {pokemon.id} existe déjà !")
-    
-    list_pokemons[pokemon.id] = asdict(pokemon)
-    return pokemon
+@router.post("/pokemons", response_model=PokemonInDB)
+def create_pokemon(pokemon: PokemonCreate, dbb: Session = Depends(get_db)):
+    return Crud.create_pokemon(dbb, pokemon)

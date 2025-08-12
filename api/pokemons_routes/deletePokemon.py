@@ -2,18 +2,17 @@
 #from typing import Union
 from dataclasses import dataclass, asdict
 from fastapi import APIRouter, HTTPException, Path, Depends
-#from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session
 from schema.schemas import Pokemon
 from api.poke_json import list_pokemons
 #import models.Pokemon_table
-from getAllPokemons import api
+from api.pokemons_routes.getAllPokemons import router
+from api.model.crud.crud import Crud
+from api.schema.schemas import PokemonInDB
+from api.util.utils import get_db, get_pokemon_by_id_if_exists
 
 #===========================DELETE============================
-@api.delete("/pokemon/{id}")
-def delete_pokemon(id: int = Path(ge=1)) -> Pokemon:
-    if id in list_pokemons :
-        pokemon = Pokemon(**list_pokemons[id])
-        del list_pokemons[id]
-        return pokemon
-    
-    raise HTTPException(status_code=404, detail=f"Le pokemon {id} n'existe pas.")
+@router.delete("/pokemons/{pid}", response_model=PokemonInDB)
+def delete_pokemon(pid: int, dbb: Session = Depends(get_db)):
+    get_pokemon_by_id_if_exists(pid, dbb)
+    return Crud.delete_pokemon(dbb, pid)

@@ -6,3 +6,6 @@ from fastapi import APIRouter, HTTPException, Path, Depends
 from schema.schemas import Pokemon
 from api.poke_json import list_pokemons
 from getAllPokemons import api
+from api.model.crud.crud import Crud
+from api.util.utils import get_db
+from getAllPokemons import router
