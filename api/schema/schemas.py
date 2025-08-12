@@ -17,3 +17,9 @@ class PokemonCreate(BaseModel):
 
 class PokemonUpdate(BaseModel):
     """A class containing pydantic data validation for updating a Pokemon model row."""
+
+
+class PokemonInDB(Pokemon):
+    """A class containing pydantic data validation for in database Pizza model."""
+
+    id: int

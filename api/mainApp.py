@@ -7,7 +7,7 @@ import api.model.models as models
 import math
 import uvicorn
 from api.poke_json import list_pokemons, pokemons_list
-from api.pokemons_routes.getAllPokemons import api as getPokemons
+from api.pokemons_routes.getAllPokemons import router as getPokemons
 
 
 
