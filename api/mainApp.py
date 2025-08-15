@@ -13,7 +13,12 @@ from api.pokemons_routes.addPokemon import router as addPokemon
 #from api.pokemons_routes.deleteAllPokemons import router as deleteAllPokemons
 from api.pokemons_routes.deletePokemon import router as deletePokemon
 from api.pokemons_routes.updatePokemon import router as updatePokemon
+
 from api.trainers_routes.getAllTrainers import router as getTrainers
+from api.trainers_routes.addTrainer import router as addTrainer
+from api.trainers_routes.deleteTrainer import router as deleteTrainer
+from api.trainers_routes.updateTrainer import router as updateTrainer
+
 # Structure de données #
 models.Base.metadata.create_all(bind=engine)
 
@@ -29,6 +34,9 @@ app.include_router(addPokemon)
 app.include_router(deletePokemon)
 app.include_router(updatePokemon)
 app.include_router(getTrainers)
+app.include_router(addTrainer)
+app.include_router(deleteTrainer)
+app.include_router(updateTrainer)
 
 #==========================Startup=========================
 @app.on_event("startup")

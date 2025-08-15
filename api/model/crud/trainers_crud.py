@@ -49,11 +49,7 @@ class SqlTrainerCRUD(TrainerCRUD):
     def update_trainer(dbb: Session, trainer: TrainerUpdate):
         trainer_in_db = SqlTrainerCRUD.get_trainer_by_id(dbb, Trainer_table.id)
         trainer_in_db.name = trainer.name
-        trainer_in_db.types = trainer.types
-        trainer_in_db.hp = trainer.hp
-        trainer_in_db.attack = trainer.attack
-        trainer_in_db.weakness = trainer.weakness
-        trainer_in_db.evolution_id = trainer.evolution_id
+        trainer_in_db.effect = trainer.effect
 
         dbb.commit()
         return trainer_in_db
