@@ -25,4 +25,4 @@ def read_trainers_id(pid: int, dbb: Session = Depends(get_db)) -> Trainer :
 @router.get("/trainers", response_model=List[TrainerInDB])
 def read_trainers(dbb: Session = Depends(get_db)):
     #print(Crud2.get_trainers(dbb=dbb))
-    return Crud2.get_trainers(dbb=dbb)
+    return Crud2.get_trainer(dbb=dbb)

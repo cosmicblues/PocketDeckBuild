@@ -56,7 +56,7 @@ class TrainerUpdate(BaseModel):
     name: str
     effect: str
 
-class TrainerInDB(Pokemon):
+class TrainerInDB(Trainer):
     """A class containing pydantic data validation for in database Pizza model."""
 
     id: int
