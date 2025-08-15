@@ -11,7 +11,6 @@ from api.model.crud.crud import Crud
 from api.util.utils import get_db, get_pokemon_by_id_if_exists
 
 router = APIRouter()
-
 #===========================GET============================
 
 #@router.get("/total_pokemons")

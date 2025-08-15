@@ -7,12 +7,13 @@ import api.model.models as models
 import math
 import uvicorn
 from api.poke_json import list_pokemons, pokemons_list
+from api.trainer_json import list_trainers, trainer_list
 from api.pokemons_routes.getAllPokemons import router as getPokemons
 from api.pokemons_routes.addPokemon import router as addPokemon
 #from api.pokemons_routes.deleteAllPokemons import router as deleteAllPokemons
 from api.pokemons_routes.deletePokemon import router as deletePokemon
 from api.pokemons_routes.updatePokemon import router as updatePokemon
-
+from api.trainers_routes.getAllTrainers import router as getTrainers
 # Structure de données #
 models.Base.metadata.create_all(bind=engine)
 
@@ -27,6 +28,7 @@ app.include_router(getPokemons)
 app.include_router(addPokemon)
 app.include_router(deletePokemon)
 app.include_router(updatePokemon)
+app.include_router(getTrainers)
 
 #==========================Startup=========================
 @app.on_event("startup")
@@ -45,6 +47,20 @@ def startup_populate_db():
         db.close()
     else:
         print(f"{num_pokemons.count()} pokemon est déjà dans la DB")
+        db.close()
+    num_trainers = db.query(models.Trainer_table)
+    if num_trainers.count() == 0:
+        Trainer_table = trainer_list
+        for trainer in Trainer_table:
+            #print([trainer])
+            #print(Trainer_table[0]['name'])
+            db.add(models.Trainer_table(**trainer))
+            #print(trainer)
+        db.commit()
+        #print(num_trainers)
+        db.close()
+    else:
+        print(f"{num_trainers.count()} trainer est déjà dans la DB")
         db.close()
 
 """

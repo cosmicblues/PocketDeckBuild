@@ -13,3 +13,10 @@ class Pokemon_table(Base):
     attack = Column(Integer, unique=False, index=False, primary_key=False)
     weakness = Column(String)
     evolution_id = Column(Integer, primary_key=False)
+
+class Trainer_table(Base):
+    __tablename__ = "trainers"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String)
+    effect = Column(String)
