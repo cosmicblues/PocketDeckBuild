@@ -1,0 +1,23 @@
+from sqlalchemy import Column, Integer, String
+
+from PocketDeckBuild.database.database import Base
+
+
+class PokemonTable(Base):
+    __tablename__ = "pokemons"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String)
+    types = Column(String)
+    hp = Column(Integer, unique=False, index=False, primary_key=False)
+    attack = Column(Integer, unique=False, index=False, primary_key=False)
+    weakness = Column(String)
+    evolution_id = Column(Integer, primary_key=False)
+
+
+class TrainerTable(Base):
+    __tablename__ = "trainers"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String)
+    effect = Column(String)
