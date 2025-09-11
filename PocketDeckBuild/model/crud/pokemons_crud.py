@@ -66,3 +66,10 @@ class SqlPokemonCRUD(PokemonCRUD):
         dbb.delete(pokemon)
         dbb.commit()
         return pokemon
+
+    @staticmethod
+    def get_pokemon_by_id_if_exists(pid: int, dbb: Session):
+        pokemon = SqlPokemonCRUD.get_pokemon_by_id(dbb, pid)
+        if not pokemon:
+            raise Exception(f"No such pokemon with {pid} found.")
+        return pokemon

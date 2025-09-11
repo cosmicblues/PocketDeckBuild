@@ -3,10 +3,10 @@ from typing import List
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
-from PocketDeckBuild.loader import trainers_json
+from PocketDeckBuild.database.database import get_db
+from PocketDeckBuild.loader import trainers_list
 from PocketDeckBuild.model.crud.trainers_crud import SqlTrainerCRUD as Crud2
 from PocketDeckBuild.schema.schemas_trainers import Trainer, TrainerInDB
-from PocketDeckBuild.util.utils import get_db, get_trainer_by_id_if_exists
 
 router = APIRouter()
 # ===========================GET============================
@@ -14,10 +14,10 @@ router = APIRouter()
 
 @router.get("/trainers/{pid}", response_model=TrainerInDB)
 def read_trainers_id(pid: int, dbb: Session = Depends(get_db)) -> Trainer:
-    if pid not in trainers_json:
+    if pid not in trainers_list:
         raise HTTPException(status_code=404, detail="Ce trainer n'existe pas")
 
-    return get_trainer_by_id_if_exists(pid, dbb)
+    return Crud2.get_trainer_by_id_if_exists(pid, dbb)
     # return Trainer(**list_trainers[id])
 
 

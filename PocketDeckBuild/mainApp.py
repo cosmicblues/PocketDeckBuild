@@ -1,7 +1,8 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 from PocketDeckBuild.database.database import engine, session_local
-from PocketDeckBuild.loader import pokemons_json, trainers_json
+from PocketDeckBuild.loader import pokemons_list, trainers_list
 from PocketDeckBuild.model import models
 from PocketDeckBuild.pokemons_routes.addPokemon import router as addPokemon
 
@@ -18,6 +19,19 @@ from PocketDeckBuild.trainers_routes.updateTrainer import router as updateTraine
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+
+origins = [
+    "http://localhost:5173",
+    # Add more origins here
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 # ===========================TEST============================
@@ -42,7 +56,7 @@ def startup_populate_db():
     db = session_local()
     num_pokemons = db.query(models.PokemonTable)
     if num_pokemons.count() == 0:
-        Pokemon_table = pokemons_json
+        Pokemon_table = pokemons_list
         for pokemon in Pokemon_table:
             # print([pokemon])
             # print(Pokemon_table[0]['name'])
@@ -56,7 +70,7 @@ def startup_populate_db():
         db.close()
     num_trainers = db.query(models.TrainerTable)
     if num_trainers.count() == 0:
-        Trainer_table = trainers_json
+        Trainer_table = trainers_list
         for trainer in Trainer_table:
             # print([trainer])
             # print(Trainer_table[0]['name'])

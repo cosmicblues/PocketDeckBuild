@@ -5,10 +5,10 @@ from fastapi import Depends
 # from sqlalchemy.orm import Session
 from sqlalchemy.orm import Session
 
+from PocketDeckBuild.database.database import get_db
 from PocketDeckBuild.model.crud.trainers_crud import SqlTrainerCRUD as Crud2
 from PocketDeckBuild.schema.schemas_trainers import TrainerInDB, TrainerUpdate
 from PocketDeckBuild.trainers_routes.getAllTrainers import router
-from PocketDeckBuild.util.utils import get_db, get_trainer_by_id_if_exists
 
 
 # ===========================PUT============================
@@ -18,7 +18,7 @@ def update_trainer(
     trainer: TrainerUpdate,
     dbb: Session = Depends(get_db),
 ):
-    prev_trainer = get_trainer_by_id_if_exists(pid, dbb)
+    prev_trainer = Crud2.get_trainer_by_id_if_exists(pid, dbb)
 
     trainer_update = TrainerUpdate(
         trainer_id=pid,

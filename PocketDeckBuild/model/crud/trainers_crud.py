@@ -62,3 +62,10 @@ class SqlTrainerCRUD(TrainerCRUD):
         dbb.delete(trainer)
         dbb.commit()
         return trainer
+
+    @staticmethod
+    def get_trainer_by_id_if_exists(pid: int, dbb: Session):
+        trainer = SqlTrainerCRUD.get_trainer_by_id(dbb, pid)
+        if not trainer:
+            raise Exception(f"No such trainer with {pid} found.")
+        return trainer

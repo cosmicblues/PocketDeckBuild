@@ -5,10 +5,10 @@ from fastapi import Depends
 # from sqlalchemy.orm import Session
 from sqlalchemy.orm import Session
 
+from PocketDeckBuild.database.database import get_db
 from PocketDeckBuild.model.crud.pokemons_crud import SqlPokemonCRUD as Crud
 from PocketDeckBuild.pokemons_routes.getAllPokemons import router
 from PocketDeckBuild.schema.schemas_pokemons import PokemonInDB, PokemonUpdate
-from PocketDeckBuild.util.utils import get_db, get_pokemon_by_id_if_exists
 
 
 # ===========================PUT============================
@@ -18,7 +18,7 @@ def update_pokemon(
     pokemon: PokemonUpdate,
     dbb: Session = Depends(get_db),
 ):
-    prev_pokemon = get_pokemon_by_id_if_exists(pid, dbb)
+    prev_pokemon = Crud.get_pokemon_by_id_if_exists(pid, dbb)
 
     pokemon_update = PokemonUpdate(
         pokemon_id=pid,
