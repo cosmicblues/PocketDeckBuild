@@ -3,10 +3,10 @@ from typing import List
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
-from PocketDeckBuild.loader import pokemons_json
+from PocketDeckBuild.database.database import get_db
+from PocketDeckBuild.loader import list_pokemons
 from PocketDeckBuild.model.crud.pokemons_crud import SqlPokemonCRUD as Crud
 from PocketDeckBuild.schema.schemas_pokemons import Pokemon, PokemonInDB
-from PocketDeckBuild.util.utils import get_db, get_pokemon_by_id_if_exists
 
 router = APIRouter()
 # ===========================GET============================
@@ -20,10 +20,10 @@ router = APIRouter()
 
 @router.get("/pokemon/{pid}", response_model=PokemonInDB)
 def read_pokemons_id(pid: int, dbb: Session = Depends(get_db)) -> Pokemon:
-    if pid not in pokemons_json:
+    if pid not in list_pokemons:
         raise HTTPException(status_code=404, detail="Ce pokemon n'existe pas")
 
-    return get_pokemon_by_id_if_exists(pid, dbb)
+    return Crud.get_pokemon_by_id_if_exists(pid, dbb)
     # return Pokemon(**list_pokemons[id])
 
 
