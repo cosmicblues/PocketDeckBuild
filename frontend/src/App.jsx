@@ -1,6 +1,6 @@
-import React from 'react';
 import './App.css';
 import PokemonList from './components/pokemon';
+import NavbarSection from './components/test';
 
 const App = () => {
   return (
@@ -10,6 +10,7 @@ const App = () => {
       </header>
       <main>
         <PokemonList />
+        <NavbarSection />
       </main>
     </div>
   );

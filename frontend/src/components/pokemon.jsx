@@ -1,21 +1,33 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { useState } from 'react'
+import { useEffect } from 'react';
 // import AddPokemonForm from './addPokemonForm';
 import api from '../api';
 
-const PokemonList = () => {
-  const [pokemon, setPokemon] = useState([]);
-
+export default function PokemonList() {
+  const [pokemon, setPokemon] = React.useState([]);
   useEffect(() => {
-    api.get('/pokemons').then(response => {console.log(response.data)})
-  .catch(error => {console.log(error)})
-  }, [])
-//   console.log(api.get('/pokemons'))
+    const pokemonList = async () => {  
+      try {
+        const response = await api.get('/pokemons');
+        setPokemon(response.data);
+        console.log(JSON.stringify(response.data[0]));
+        return (
+          <div>
+              {response.data.map((pokemon) => pokemon.name).forEach((pokemon) => {
+            (<h1>{pokemon}</h1>);
+              })}
+          </div>
+        )
+      } catch (error) {
+        console.error("Error fetching pokemons", error);
+      }
+    };
 
-}
+    pokemonList();
+    }, []);
+  }
 
-
-//   fetchPokemons();
-// }, []);
 
 //   const addPokemon = async (pokemonName, pokemonType, pokemonHp, pokemonAttack, pokemonWeakness, pokemonEvo) => {
 //     try {
@@ -43,5 +55,3 @@ const PokemonList = () => {
 //       </ul>
 //       <AddPokemonForm addPokemon={addPokemon} />
 //     </div>
-
-export default PokemonList;
